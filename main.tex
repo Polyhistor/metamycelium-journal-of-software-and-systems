@@ -6,6 +6,10 @@
 \usepackage[toc,page]{appendix}
 \usepackage{rotating}
 \usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{longtable}
 
 
 \makeatletter
@@ -95,7 +99,7 @@ Without a well-established big data strategy, companies may struggle to navigate
 
 To this end, this study presents TerraMycelium, a RA designed specifically for BD systems based on the principles of complex adaptive systems, Domain-Driven Design (DDD), distributed systems, and event-driven systems. TerraMycelium seeks to surpass the constraints of current RAs by utilising domain-driven and distributed approaches derived from contemporary software engineering \cite{ataei2023application}. This method aims to improve the ability of BD systems to scale, be maintained, and evolve, surpassing the constraints of traditional monolithic data architectures.
 
-The paper is structured as follows: Section~\ref{sec:background} provides an overview of the foundational concepts and technologies pertinent to BD reference architecture, aiming to forge a conceptual framework that is required for this paper. An overview of the existing research on the topic is presented in Section~\ref{sec:related_work}. The significance of reference architectures in the context of big data is explored in Section~\ref{sec:why_reference_architectures}. Section~\ref{sec:software_and_system_requirements} details the software and system requirements necessary for implementing the proposed architecture. Section~\ref{sec:theory} delves into the theoretical foundation underpinning the challenges in contemporary big data systems. The design and development of the TerraMycelium artefact are described in Section~\ref{sec:artifact}. Section~\ref{sec:discussion} examines the evaluation findings, their implications, limitations, and relevance to existing and future research. In Section~\ref{sec:discussion} the findings of the study are critically analysed, and future directions are depicted. Finally, Section~\ref{sec:conclusion} summarises the main contributions of the study, its practical implications, and suggests directions for future research.
+The paper is structured as follows: Section~\ref{sec:background} provides an overview of the foundational concepts and technologies pertinent to BD reference architecture, aiming to forge a conceptual framework that is required for this paper. An overview of the existing research on the topic is presented in Section~\ref{sec:related_work}. The significance of reference architectures in the context of big data is explored in Section~\ref{sec:why_reference_architectures}. Section~\ref{sec:software_and_system_requirements} details the software and system requirements necessary for implementing the proposed architecture. Section~\ref{sec:theory} delves into the theoretical foundation underpinning the challenges in contemporary big data systems. The design and development of the TerraMycelium artefact is described in Section~\ref{sec:artefact}. Section~\ref{sec:discussion} examines the evaluation findings, their implications, limitations, and relevance to existing and future research. In Section~\ref{sec:discussion} the findings of the study are critically analysed, and future directions are depicted. Finally, Section~\ref{sec:conclusion} summarises the main contributions of the study, its practical implications, and suggests directions for future research.
 
 \section{Background} \label{sec:background} 
 
@@ -257,7 +261,7 @@ After defining the types of requirements and identifying relevant requirements, 
 
 A systematic strategy for presenting software and system requirements that includes informal model verification techniques is recognised due to its established use in both business and academia \cite{kassab2014state}. The method for illustrating functional requirements adheres to the principles stated in the ISO/IEC/IEEE standard 29148 \cite{ISO29148}. The requirements representation is structured based on system modes, detailing the primary components of the system, followed by the requirements. This technique is based on the requirement specification published for the NASA Wide-field InfraRed Explorer (WIRE) system \cite{NASA} and the Software Engineering Body of Knowledge (SEBoK) \cite{abran2004software}. The requirements are outlined in Table~\ref{table:systemRequirements}.
 
-\begin{table*}
+\begin{longtable}
 
   \renewcommand{\arraystretch}{1.3}
 
@@ -353,7 +357,7 @@ A systematic strategy for presenting software and system requirements that inclu
 
   \end{tabular}
 
-\end{table*}
+\end{longtable}
 
 \section{Theory}
 
@@ -389,7 +393,7 @@ These two distinct data planes are often managed within separate organisational 
 
 As a consequence, there are now two separate technology systems in place, requiring significant resources to connect them. Two distinct topologies and integration designs have emerged due to this gap, facilitated by ETLs (Figure \ref{fig:dataPlanes}). Data extraction from operational databases is often accomplished through a batch ETL process. These ETL processes typically lack a clearly defined agreement with the operational database and solely consume its data. This emphasises the vulnerability of this system, as modifications made to operational databases can impact analytical applications downstream. As time passes, the complexity of ETL jobs grows, making them harder to maintain and leading to a decline in data quality. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
   \centering
 
@@ -477,7 +481,7 @@ Event brokers are services created and provided to enable event communication vi
 
 These components collaborate to establish a distributed, fault-tolerant, and scalable data system capable of managing both batch and stream processing, as seen in Figure \ref{fig:eventDrivenArchitecture}. 
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -771,7 +775,7 @@ These components are;
 
     The IAM component guarantees meticulous access control and privilege management, enabling the creation of precise access policies. The system enables strong authentication using standard protocols such as OAuth and SAML, simplifying user access through Single Sign-On (SSO). It supports audits by recording access occurrences, strengthening compliance, security oversight, and incident management. The Figure~\ref{diagram:IAM} provides a detailed representation of how the component functions and how it interacts with other aspects of the system.
 
-    \begin{figure*}[h]
+    \begin{figure*}[ht]
 
         \includegraphics[width=\linewidth]{images/Metamycelium-identity-and-access-control.jpg}
 
@@ -809,7 +813,7 @@ The variable components in Terramycelium can be altered, adapted, or excluded ac
 
 \section{Evaluation 1: Case Mechanism Experiment}
 
-\label{sec:discussion}
+
 
 The validation of treatment is crucial in its research, development, and implementation phases \cite{wieringa2014design}. Validating a treatment involves determining its possible impact on stakeholder objectives when applied to the specific problem at hand. 
 
@@ -823,7 +827,7 @@ Prototyping is the creation of a working model that physically represents the st
 
 Implementing the essential components and functionalities stated in the RA, Terramycelium, is part of prototyping the architecture. The selected technologies, supported by academic justification and in line with the research goals, serve as the basis for developing the prototype. The architecture's ability to manage large-scale data processing and meet various needs can be evaluated by systematically implementing its architectural components. Figure~\ref{TerramyceliumPrototype} shows a concrete structure created with Terramycelium.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
     \centering
 
@@ -867,7 +871,7 @@ OPA is incorporated into the service mesh as an independent service known as a s
 
 OPA assesses these requests based on established policy guidelines. Approved requests are executed by the API server, whereas refused requests result in an error message sent to the user. OPA's policies manage all interactions among services and pods within a namespace. OPA assists in ensuring adherence to predetermined security and operational regulations within a Kubernetes setting. This is depicted in Figure~\ref{OPAISTIO}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1075,7 +1079,7 @@ Upon receiving the event, the analytical service uses the metadata within the ev
 
 At this stage, the required data quality metadata and bitemporality metadata are generated. The metadata, service name, service address, and unique identifier are sent as an event to Kafka on a specified topic. Data Lichen establishes a consumer group, subscribes to that particular topic, retrieves the data, and subsequently presents the information for each domain. Data Lichen presents this information in a specially designed table, as shown in Figure~\ref{dataLichenDashboard}. Utilising a distinct identification for each service guarantees that the listing and presentation of services are uniform and dependable, yielding consistent outcomes with every action. The flow is depicted in Figure~\ref{intraDomain}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1087,7 +1091,7 @@ At this stage, the required data quality metadata and bitemporality metadata are
 
 \end{figure*}
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1103,7 +1107,7 @@ Domain A requests a 5GB JSON file from domain B in this instance. Domain A posse
 
 The information contains the address of the data domain to be retrieved. The address is utilised to send an event to domain B for data retrieval. This activates the internal process of domain B, leading to the production and storage of datasets in the distributed storage service. After the procedure is finished, an event is sent to the data processing completion topic, to which domain A is subscribed. Figure~\ref{kafkaTopics} provides an overview of the Kafka topics utilised in this investigation.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1117,7 +1121,7 @@ The information contains the address of the data domain to be retrieved. The add
 
 The event signalling the conclusion of data processing also includes the data address. Domain A utilises this URL to retrieve the data. After retrieving the data, it is subsequently processed. The flow is illustrated in Figure~\ref{s1Flow}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1141,7 +1145,7 @@ Each service is instrumented using OpenTelemetry SDKs to capture telemetry data 
 
 Figure~\ref{openTelemetryTopic} illustrates the open telemetry Kafka topic and a large number of events recorded in this topic. The open telemetry processor service consumes all events sent to this topic. The service gathers and maintains metrics, which are then extracted by Prometheus and subsequently sent to Grafana. The flow is depicted in Figure~\ref{openTelemetryFlow}. The JSON displayed in Figure~\ref{openTelemetryTraceSpan} depicts an example of a trace span JSON that is communicated over Kafka to the open telemetry service.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1153,7 +1157,7 @@ Figure~\ref{openTelemetryTopic} illustrates the open telemetry Kafka topic and a
 
 \end{figure*}
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1165,7 +1169,7 @@ Figure~\ref{openTelemetryTopic} illustrates the open telemetry Kafka topic and a
 
 \end{figure*}
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 
   \centering
 
@@ -1213,7 +1217,7 @@ Every data transmission from Domain A to Domain B ensures the certification of s
 
 The graph in Figure~\ref{kafkIngestionInBytesInCustomerDomainAnalyticalService} shows that the Kafka data ingestion reached its highest point at 1,693,816,791 bytes on 2023-09-04 at 20:40:00 in the analytical service of the customer domain, demonstrating the transfer of data from the operational service to the analytical service. The bar chart illustrates the incremental rise in the service's workload.  The entire quantity of data ingested during the trial was 1.6 billion bytes, as shown in Figure~\ref{totalDataIngestedinBytesInCustomerDomainsAnalyticalService}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1225,7 +1229,7 @@ The graph in Figure~\ref{kafkIngestionInBytesInCustomerDomainAnalyticalService} 
 
   \end{figure*}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
   \centering
 
@@ -1239,7 +1243,7 @@ The graph in Figure~\ref{kafkIngestionInBytesInCustomerDomainAnalyticalService} 
 
 The data ingestion rate for the weather domain's analytical service peaked at 1,693,893,416 bytes on September 5, 2023, at 18:00:00, as shown in Figure~\ref{totalDataIngestedinBytesInWeatherDomainsAnalyticalService}. This service has processed a total of 1.6 billion bytes.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1365,7 +1369,7 @@ Where:
 
 The latency numbers captured are presented in Figure~\ref{cusetomerAndWeatherDomainAnalyaticalServicesLatencies}. The figure shows that the latency in both domains' analytical services is negligible, with one spike reaching 400 seconds and the rest maintaining a constant ingestion latency of roughly 50 to 100 seconds. The weather domain experiences lower latency than customer latency, averaging 50 seconds. This is because this domain uses a less amount of data.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1389,7 +1393,7 @@ It is important to consider this finding while assessing scalability and forecas
 
 Figure~\ref{openTelemetryServiceCpuUsage} illustrates the CPU utilisation trends of the telemetry processing service, emphasising the interplay between data intake rates and resource consumption.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
     \centering
 
@@ -1403,7 +1407,7 @@ Figure~\ref{openTelemetryServiceCpuUsage} illustrates the CPU utilisation trends
 
 The CPU utilisation in the Open Telemetry service metrics shows a continuous level of around 24 percent, with occasional peaks reaching 25.8 percent at certain times. The behaviour is a result of the architecture in which events are consistently transmitted to the associated services. A full table showing the CPU utilisation during a certain period can be found in Table~\ref{table:telemetry-cpu-usage} to clarify this issue. The tabulation offers insights into the variation in CPU usage at different times and under varied conditions, showing periods of stable CPU usage, periods of inactivity, and occasional spikes in utilisation.
 
-\begin{table}[h!]
+\begin{table}[!ht]
 
   \centering
 
@@ -1453,7 +1457,7 @@ The constant and regular CPU usage indicates a reliable processing environment. 
 
 The Kubernetes cluster CPU use consistently stays at 43\%, with occasional spikes up to 250\% as seen in Figure~\ref{kubernetesClusterCpuUsage}. These spikes typically occur when a large amount of data is being sent across the network and into Minio.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
   \centering
 
@@ -1619,7 +1623,7 @@ A methodical analysis is conducted based on the metrics of interest:
 
 \paragraph{Memory and CPU Utilisation} Memory usage is crucial in this high-speed data scenario. Regularly monitoring memory consumption was crucial in assessing the overall health and efficiency of the system. The memory usage in the customer domain reached a significant peak, measuring 12,852,592,640 bytes. The complexity of the chunking logic used in the streaming operation is the reason for this (Figure~\ref{memoryUtilizationInCustomerDomainInHighVelocityCase}). In contrast, the weather domain, which functions as the recipient of data, indicated a more conservative use of memory. This is believed to be a result of its more straightforward data processing logic, which does not include the additional steps of chunking (Figure~\ref{memoryUtilizationInWeatherDomainInHighVelocityCase}).
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
   \centering
 
@@ -1631,7 +1635,7 @@ A methodical analysis is conducted based on the metrics of interest:
 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
   \centering
 
@@ -1689,7 +1693,7 @@ Keycloak, the authentication and authorization server, plays a crucial role in t
 
 The authentication process, enabled by OpenID Connect standards, allows the simulated data scientist to effortlessly access Data Lichen. After being registered, the data scientist can access and see datasets from many domains. They can then send network requests to retrieve the specific data they need. The flow is illustrated in Figure~\ref{dataScientistFlowWithAuthentication}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1731,7 +1735,7 @@ After obtaining the domain data using a secure method utilising OpenID Connect a
 
 The recorded metrics consistently displayed a length of 3 seconds throughout the timestamps. This demonstrates a dependable and consistent secret management system, as depicted in Figure~\ref{dataScientistSecretRetrievalDelayInSeconds}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1745,7 +1749,7 @@ The recorded metrics consistently displayed a length of 3 seconds throughout the
 
 The CPU utilisation remains constant at 18.6\% during the recorded time period. The behaviour can be linked to the special resource allocation of the operating system on the Apple M2 chip, which enables a consistent usage of the central processing unit (CPU), as shown in Figure~\ref{cpuUtilizationInDataScientistApplication}. As a result, CPU consumption may change in various circumstances.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1761,7 +1765,7 @@ The CPU utilisation remains constant at 18.6\% during the recorded time period. 
 
 The memory utilisation remains consistently at around 12.56 GB during all observations. This suggests that the application possesses efficient memory management and does not encounter memory leaks or substantial variations. This is illustrated in Figure~\ref{memoryUtilizationInDataScientistApplication}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1777,7 +1781,7 @@ The memory utilisation remains consistently at around 12.56 GB during all observ
 
 The duration of query processing consistently stayed at 10 seconds throughout the measured time period. Nevertheless, there is a decrease to 2 seconds at the conclusion of the observation period (Figure~\ref{queryProcessingDurationInDataScienceApplication}). This abrupt decline indicates potential opportunities for optimising or modifying the characteristics of the processed queries.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -1979,9 +1983,7 @@ The research methodology for soliciting expert feedback comprised five stages: \
 
   Purposive sampling identified experts, providing in-depth insights through targeted selection \cite{baltes2022sampling}. Contacts were initiated with professionals in relevant roles, such as data engineers, data architects, chief data and analytics offers, solution engineers, solution architects, principal data engineers, staff data engineers, principal architectures, and scholars and researchers whose work is in BD systems. Over two months, three experts across different sectors were selected, as displayed in Table~\ref{tab:experts}.
 
-  
-
-  \begin{table}[htbp]
+    \begin{table}[htbp]
 
     \centering
 
@@ -2375,7 +2377,7 @@ To summarise, although Terramycelium has certain advantages, it nevertheless fac
 
 The experts' perspectives on the Terramycelium architecture's applicability, strengths, and challenges are succinctly outlined in the table \ref{tab:responses}, which aggregates their responses.
 
-\begin{table*}[h]
+\begin{table*}[ht]
 
   \centering
 
@@ -2457,7 +2459,7 @@ The theme "Challenges and Potential Barriers" received equal attention in both "
 
 "Other Opinions," which presented supplementary perspectives and thoughts, was a less-discussed topic due to its inclusion of only 3 references. The data is depicted in Figure~\ref{fig:quantitativeSummaryForExpertOpinion}.
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
 
   \centering
 
@@ -2483,7 +2485,7 @@ Not all organizations operate on a microservices architecture or adopt a fully d
 
 The implementation of Terramycelium's comprehensive suite of components, such as IAM and secret management, presents substantial cost and time implications for organisations. To fully deploy all aspects of Terramycelium, an organization would need to invest significantly in resources and manpower, and integrate a variety of open-source technologies, which may not always have compatible interfaces. This not only extends the time and financial investment required but also necessitates a strategic approach to select and harmonize these technologies effectively within the existing organizational infrastructure.
 
-\subsection{Final Notes} \label{sec:discussion}
+\subsection{Final Notes} \label{sec:finalNotes}
 
 The Terramycelium RA is a data management architecture that combines domain-driven design with event-driven communication, enhancing its applicability in data management challenges. It incorporates features like Data Lichen, bitemporality, and immutability, demonstrating an adaptive approach to the evolving landscape of data processing. The architecture has received positive feedback from experts, including professionals from leading data and eventing solutions companies. However, the Terramycelium faces challenges, including its complexity, which requires significant investment in skill development and training, which may be a barrier for organizations lacking resources or unwilling to undergo transformation. The lack of open-source support for components like Data Lichen adds to this challenge. The architecture's technical merits are acknowledged for its robustness and innovation, but it also requires a deep understanding of organizational culture, team dynamics, and change management strategies. The forthcoming section will analyze and synthesize the research findings, contextualizing them within the broader academic and practical landscape of BD systems.
 
@@ -2516,7 +2518,8 @@ The research indicates a shift towards agile data management practices, aligning
 In conclusion, Terramycelium contributes to BD system architecture discussions, suggesting the viability of distributed architectures. Its practical implementation and scalability in diverse ecosystems warrant further investigation, emphasizing the need for ongoing research in BD architecture.
 
 
-\bibliography{mybibfile}
+
+\bibliography{bibfile}
 
 \appendix
 
