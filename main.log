@@ -1,0 +1,2863 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  28 APR 2024 19:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex
+(/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box51
+)) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
+)
+\@bls=\dimen140
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+\c@tnote=\count195
+\c@fnote=\count196
+\c@cnote=\count197
+\c@ead=\count198
+\c@author=\count199
+\@eadauthor=\toks17
+\c@affn=\count266
+\absbox=\box52
+\elsarticlehighlightsbox=\box53
+\elsarticlegrabsbox=\box54
+\keybox=\box55
+\Columnwidth=\dimen144
+\space@left=\dimen145
+\els@boxa=\box56
+\els@boxb=\box57
+\leftMargin=\dimen146
+\@enLab=\toks18
+\@sep=\skip50
+\@@sep=\skip51
+ (./main.spl) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count267
+)
+\splwrite=\write3
+\openout3 = `main.spl'.
+
+\appnamewidth=\dimen147
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+\linenopenalty=\count268
+\output=\toks19
+\linenoprevgraf=\count269
+\linenumbersep=\dimen148
+\linenumberwidth=\dimen149
+\c@linenumber=\count270
+\c@pagewiselinenumber=\count271
+\c@LN@truepage=\count272
+\c@internallinenumber=\count273
+\c@internallinenumbers=\count274
+\quotelinenumbersep=\dimen150
+\bframerule=\dimen151
+\bframesep=\dimen152
+\bframebox=\box58
+LaTeX Info: Redefining \\ on input line 3131.
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count275
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count279
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen154
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip54
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count286
+\LTcapwidth=\dimen157
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count287
+\LT@rows=\count288
+\c@LT@tables=\count289
+\c@LT@chunks=\count290
+\LT@p@ftn=\toks20
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen158
+\ar@mcellbox=\box64
+\extrarowheight=\dimen159
+\NC@list=\toks21
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box65
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count291
+\multirow@dima=\skip62
+\bigstrutjot=\dimen160
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count292
+\c@@ppsavesec=\count293
+\c@@ppsaveapp=\count294
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count295
+\rotFPtop=\skip63
+\rotFPbot=\skip64
+\rot@float@box=\box66
+\rot@mess@toks=\toks22
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen161
+\enit@toks=\toks23
+\enit@inbox=\box67
+\enit@count@id=\count296
+\enitdp@description=\count297
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count298
+\scratchdimen=\dimen162
+\scratchbox=\box68
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen163
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks25
+) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 57.
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 80.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 1 undefined on input line 88.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 1 undefined on input line 88.
+
+
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+ []
+
+[1
+
+
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `ataei2023towards' on page 2 undefined on input line 90.
+
+
+Package natbib Warning: Citation `DataBricksSurvey' on page 2 undefined on input line 92.
+
+
+Package natbib Warning: Citation `newvantagepartners2023' on page 2 undefined on input line 92.
+
+
+Package natbib Warning: Citation `analytics2016age' on page 2 undefined on input line 92.
+
+
+Package natbib Warning: Citation `Nash' on page 2 undefined on input line 92.
+
+[2]
+
+Package natbib Warning: Citation `Cloutier2010' on page 3 undefined on input line 94.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 3 undefined on input line 94.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 3 undefined on input line 94.
+
+
+Package natbib Warning: Citation `ataei2023application' on page 3 undefined on input line 96.
+
+
+LaTeX Warning: Reference `sec:background' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:related_work' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:why_reference_architectures' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:software_and_system_requirements' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:theory' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:artifact' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 98.
+
+[3]
+
+Package natbib Warning: Citation `Kaisler2013' on page 4 undefined on input line 104.
+
+
+Package natbib Warning: Citation `Srivastava2016' on page 4 undefined on input line 104.
+
+
+Package natbib Warning: Citation `Sagiroglu2013' on page 4 undefined on input line 104.
+
+
+Package natbib Warning: Citation `Chen2012' on page 4 undefined on input line 108.
+
+
+Package natbib Warning: Citation `ataei2023towards' on page 4 undefined on input line 108.
+
+
+Package natbib Warning: Citation `AtaeiHype' on page 4 undefined on input line 108.
+
+
+Package natbib Warning: Citation `Amatriain2013' on page 4 undefined on input line 110.
+
+[4]
+
+Package natbib Warning: Citation `wang2020response' on page 5 undefined on input line 112.
+
+
+Package natbib Warning: Citation `Marr2016' on page 5 undefined on input line 112.
+
+
+Package natbib Warning: Citation `rad2017big' on page 5 undefined on input line 114.
+
+
+Package natbib Warning: Citation `Cloutier2010' on page 5 undefined on input line 120.
+
+
+Package natbib Warning: Citation `OATH' on page 5 undefined on input line 122.
+
+
+Package natbib Warning: Citation `ANSI' on page 5 undefined on input line 122.
+
+[5]
+
+Package natbib Warning: Citation `bucchiarone2020microservices' on page 6 undefined on input line 128.
+
+
+Package natbib Warning: Citation `newman2021building' on page 6 undefined on input line 130.
+
+
+Package natbib Warning: Citation `ataei2023application' on page 6 undefined on input line 130.
+
+
+Package natbib Warning: Citation `richardson2018microservices' on page 6 undefined on input line 132.
+
+
+Package natbib Warning: Citation `Coulouris2005' on page 6 undefined on input line 132.
+
+[6]
+
+Package natbib Warning: Citation `kiran2015lambda' on page 7 undefined on input line 140.
+
+
+Package natbib Warning: Citation `kreps2014' on page 7 undefined on input line 140.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 7 undefined on input line 140.
+
+
+Package natbib Warning: Citation `klein2016reference' on page 7 undefined on input line 142.
+
+
+Package natbib Warning: Citation `quintero2019ibm' on page 7 undefined on input line 142.
+
+
+Package natbib Warning: Citation `viana2014proposal' on page 7 undefined on input line 142.
+
+
+Package natbib Warning: Citation `paakkonen2015reference' on page 7 undefined on input line 142.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 7 undefined on input line 144.
+
+[7]
+
+Package natbib Warning: Citation `Cloutier2010' on page 8 undefined on input line 152.
+
+
+Package natbib Warning: Citation `bayer1999pulse' on page 8 undefined on input line 152.
+
+
+Package natbib Warning: Citation `stricker2010creating' on page 8 undefined on input line 152.
+
+
+Package natbib Warning: Citation `nakagawa2009towards' on page 8 undefined on input line 152.
+
+[8]
+
+Package natbib Warning: Citation `wg2015iso' on page 9 undefined on input line 154.
+
+
+Package natbib Warning: Citation `Derras' on page 9 undefined on input line 154.
+
+
+Package natbib Warning: Citation `GALSTER2011Empirically' on page 9 undefined on input line 154.
+
+
+Package natbib Warning: Citation `Nakagawa' on page 9 undefined on input line 156.
+
+
+Package natbib Warning: Citation `wieringa2014design' on page 9 undefined on input line 156.
+
+
+Package natbib Warning: Citation `GALSTER2011Empirically' on page 9 undefined on input line 158.
+
+
+Package natbib Warning: Citation `nakagawa2012ramodel' on page 9 undefined on input line 158.
+
+
+Package natbib Warning: Citation `wieringa2014design' on page 9 undefined on input line 158.
+
+
+Package natbib Warning: Citation `angelov2009classification' on page 9 undefined on input line 162.
+
+[9]
+
+Package natbib Warning: Citation `ataei2022state' on page 10 undefined on input line 166.
+
+
+Package natbib Warning: Citation `angelov2012framework' on page 10 undefined on input line 170.
+
+
+Package natbib Warning: Citation `GALSTER2011Empirically' on page 10 undefined on input line 170.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 10 undefined on input line 176.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 10 undefined on input line 176.
+
+[10]
+
+Package natbib Warning: Citation `ataei2023application' on page 11 undefined on input line 180.
+
+
+Package natbib Warning: Citation `ISO42010' on page 11 undefined on input line 186.
+
+[11]
+
+Package natbib Warning: Citation `Cloutier2010' on page 12 undefined on input line 190.
+
+
+Package natbib Warning: Citation `stricker2010creating' on page 12 undefined on input line 190.
+
+
+Package natbib Warning: Citation `czarnecki2012cool' on page 12 undefined on input line 196.
+
+
+Package natbib Warning: Citation `GALSTER2011Empirically' on page 12 undefined on input line 196.
+
+
+Package natbib Warning: Citation `rurua2019representing' on page 12 undefined on input line 198.
+
+[12]
+
+Package natbib Warning: Citation `Galster2011' on page 13 undefined on input line 202.
+
+
+Package natbib Warning: Citation `kazman1994saam' on page 13 undefined on input line 204.
+
+
+Package natbib Warning: Citation `Bengtsson2004' on page 13 undefined on input line 204.
+
+
+Package natbib Warning: Citation `Williams2002' on page 13 undefined on input line 204.
+
+
+Package natbib Warning: Citation `KazmanATAM' on page 13 undefined on input line 204.
+
+
+Package natbib Warning: Citation `wieringa2014design' on page 13 undefined on input line 206.
+
+
+Package natbib Warning: Citation `Cloutier2010' on page 13 undefined on input line 212.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 13 undefined on input line 214.
+
+[13]
+
+Package natbib Warning: Citation `Iso18384-1' on page 14 undefined on input line 216.
+
+
+Package natbib Warning: Citation `wieringa2014design' on page 14 undefined on input line 222.
+
+
+Overfull \hbox (5.02841pt too wide) in paragraph at lines 224--225
+[]\OT1/cmr/m/n/10 Wieringa's method-ol-ogy dis-tin-guishes be-tween func-tional re-quire-ments, which
+ []
+
+[14]
+
+Package natbib Warning: Citation `sommerville2011software' on page 15 undefined on input line 242.
+
+
+Package natbib Warning: Citation `laplante2017requirements' on page 15 undefined on input line 242.
+
+
+Package natbib Warning: Citation `Chang' on page 15 undefined on input line 246.
+
+
+Package natbib Warning: Citation `volk2020identifying' on page 15 undefined on input line 246.
+
+
+Package natbib Warning: Citation `AtaeiSecurity' on page 15 undefined on input line 248.
+
+
+Package natbib Warning: Citation `yu2019components' on page 15 undefined on input line 248.
+
+
+Package natbib Warning: Citation `eridaputra2014modeling' on page 15 undefined on input line 248.
+
+
+Package natbib Warning: Citation `al2016characteristics' on page 15 undefined on input line 248.
+
+[15]
+
+Package natbib Warning: Citation `Rada2017' on page 16 undefined on input line 250.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 16 undefined on input line 254.
+
+
+Package natbib Warning: Citation `Bahrami2015' on page 16 undefined on input line 254.
+
+
+Package natbib Warning: Citation `rad2017big' on page 16 undefined on input line 254.
+
+
+Package natbib Warning: Citation `chang2015nist' on page 16 undefined on input line 254.
+
+
+Package natbib Warning: Citation `kassab2014state' on page 16 undefined on input line 258.
+
+
+Package natbib Warning: Citation `ISO29148' on page 16 undefined on input line 258.
+
+
+Package natbib Warning: Citation `NASA' on page 16 undefined on input line 258.
+
+
+Package natbib Warning: Citation `abran2004software' on page 16 undefined on input line 258.
+
+
+LaTeX Warning: Reference `table:systemRequirements' on page 16 undefined on input line 258.
+
+[16]
+Overfull \hbox (86.13455pt too wide) in paragraph at lines 270--355
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 268.51178pt on input line 356.
+
+
+Package natbib Warning: Citation `inflectionPoint' on page 17 undefined on input line 362.
+
+
+Package natbib Warning: Citation `newvantagepartners2023' on page 17 undefined on input line 362.
+
+
+Package natbib Warning: Citation `Rose' on page 17 undefined on input line 364.
+
+
+Package natbib Warning: Citation `ISO42010' on page 17 undefined on input line 366.
+
+
+Package natbib Warning: Citation `DataMesh' on page 17 undefined on input line 370.
+
+
+Package natbib Warning: Citation `richards2020fundamentals' on page 17 undefined on input line 370.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 17 undefined on input line 370.
+
+[17] [18]
+
+Package natbib Warning: Citation `MicroServicesPatterns' on page 19 undefined on input line 372.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 19 undefined on input line 372.
+
+
+Package natbib Warning: Citation `DataMesh' on page 19 undefined on input line 374.
+
+
+Package natbib Warning: Citation `GartnerDataFabric2023' on page 19 undefined on input line 374.
+
+
+Package natbib Warning: Citation `ataei2023towards' on page 19 undefined on input line 374.
+
+
+Package natbib Warning: Citation `Bode2023' on page 19 undefined on input line 374.
+
+
+Package natbib Warning: Citation `Bode2023' on page 19 undefined on input line 376.
+
+[19]
+
+Package natbib Warning: Citation `kimball2013data' on page 20 undefined on input line 384.
+
+
+Package natbib Warning: Citation `ataei2022state' on page 20 undefined on input line 386.
+
+
+Package natbib Warning: Citation `DataMesh' on page 20 undefined on input line 388.
+
+
+LaTeX Warning: Reference `fig:dataPlanes' on page 20 undefined on input line 390.
+
+
+LaTeX Warning: File `images/data-planes.png' not found on input line 396.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:396: Package pdftex.def Error: File `images/data-planes.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 ...width=\linewidth]{images/data-planes.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
+
+Package natbib Warning: Citation `ataei2022state' on page 21 undefined on input line 406.
+
+
+Package natbib Warning: Citation `DataMesh' on page 21 undefined on input line 406.
+
+
+Overfull \hbox (0.797pt too wide) in paragraph at lines 406--407
+[]\OT1/cmr/m/n/10 Information is typ-i-cally gath-ered and uni-fied across mul-ti-ple plat-forms. Some
+ []
+
+[21]
+
+Package natbib Warning: Citation `popovivc2018impact' on page 22 undefined on input line 414.
+
+
+Package natbib Warning: Citation `merson2020modeling' on page 22 undefined on input line 418.
+
+
+Package natbib Warning: Citation `evans2004domain' on page 22 undefined on input line 418.
+
+
+Package natbib Warning: Citation `DataMesh' on page 22 undefined on input line 418.
+
+[22]
+
+Package natbib Warning: Citation `teamtopologiesSkelton' on page 23 undefined on input line 420.
+
+
+Package natbib Warning: Citation `DataMesh' on page 23 undefined on input line 426.
+
+
+Package natbib Warning: Citation `sudhakar2012model' on page 23 undefined on input line 426.
+
+
+Package natbib Warning: Citation `khrononov2021learning' on page 23 undefined on input line 428.
+
+[23]
+
+Package natbib Warning: Citation `khononov2021learning' on page 24 undefined on input line 430.
+
+
+Package natbib Warning: Citation `reynolds1987flocks' on page 24 undefined on input line 436.
+
+[24]
+
+Package natbib Warning: Citation `evans2004domain' on page 25 undefined on input line 460.
+
+
+Package natbib Warning: Citation `DataMesh' on page 25 undefined on input line 460.
+
+
+Package natbib Warning: Citation `newman2021building' on page 25 undefined on input line 460.
+
+
+Package natbib Warning: Citation `lansing2003complex' on page 25 undefined on input line 460.
+
+
+Package natbib Warning: Citation `montesi2016circuit' on page 25 undefined on input line 464.
+
+[25]
+
+Package natbib Warning: Citation `Ford2021SoftwareArchitecture' on page 26 undefined on input line 472.
+
+
+Package natbib Warning: Citation `stopford2018designing' on page 26 undefined on input line 472.
+
+
+Package natbib Warning: Citation `simon2000brewer' on page 26 undefined on input line 472.
+
+[26]
+
+LaTeX Warning: Reference `fig:eventDrivenArchitecture' on page 27 undefined on input line 478.
+
+
+LaTeX Warning: File `images/Event-architecture.png' not found on input line 484.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:484: Package pdftex.def Error: File `images/Event-architecture.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.484 ...idth=13cm]{images/Event-architecture.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 484--485
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `Ford2021SoftwareArchitecture' on page 27 undefined on input line 494.
+
+[27]
+
+Package natbib Warning: Citation `MStodaytomorrow' on page 28 undefined on input line 502.
+
+
+LaTeX Warning: Reference `tab:architecture-characteristics' on page 28 undefined on input line 506.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:524: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.524     Maintainability & $\bigstar
+                                     \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:524: Undefined control sequence.
+l.524     Maintainability & $\bigstar\bigstar
+                                             \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:524: Undefined control sequence.
+l.524 ...intainability & $\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:528: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.528     Scalability & $\bigstar
+                                 \bigstar\bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:528: Undefined control sequence.
+l.528     Scalability & $\bigstar\bigstar
+                                         \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:528: Undefined control sequence.
+l.528     Scalability & $\bigstar\bigstar\bigstar
+                                                 \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:528: Undefined control sequence.
+l.528 ...ility & $\bigstar\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:532: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.532     Fault Tolerance & $\bigstar
+                                     \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:532: Undefined control sequence.
+l.532     Fault Tolerance & $\bigstar\bigstar
+                                             \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:532: Undefined control sequence.
+l.532 ...ult Tolerance & $\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:536: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.536     Elasticity & $\bigstar
+                                \bigstar\bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:536: Undefined control sequence.
+l.536     Elasticity & $\bigstar\bigstar
+                                        \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:536: Undefined control sequence.
+l.536     Elasticity & $\bigstar\bigstar\bigstar
+                                                \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:536: Undefined control sequence.
+l.536 ...icity & $\bigstar\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:540: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.540     Deployability & $\bigstar
+                                   \bigstar\bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:540: Undefined control sequence.
+l.540     Deployability & $\bigstar\bigstar
+                                           \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:540: Undefined control sequence.
+l.540 ...Deployability & $\bigstar\bigstar\bigstar
+                                                  \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:540: Undefined control sequence.
+l.540 ...ility & $\bigstar\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:544: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.544     Cost & $\bigstar
+                          \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:544: Undefined control sequence.
+l.544     Cost & $\bigstar\bigstar
+                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:548: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.548     Simplicity & $\bigstar
+                                $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:552: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.552     Performance & $\bigstar
+                                 \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:552: Undefined control sequence.
+l.552     Performance & $\bigstar\bigstar
+                                         \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:552: Undefined control sequence.
+l.552     Performance & $\bigstar\bigstar\bigstar
+                                                 $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:556: Undefined control sequence.
+<recently read> \bigstar 
+                         
+l.556 ... Modern Engineering Practices & $\bigstar
+                                                  \bigstar\bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:556: Undefined control sequence.
+l.556 ...Engineering Practices & $\bigstar\bigstar
+                                                  \bigstar\bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:556: Undefined control sequence.
+l.556 ...ing Practices & $\bigstar\bigstar\bigstar
+                                                  \bigstar$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:556: Undefined control sequence.
+l.556 ...tices & $\bigstar\bigstar\bigstar\bigstar
+                                                  $ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[28]
+
+LaTeX Warning: Reference `fig:Terramycelium' on page 29 undefined on input line 570.
+
+[29]
+
+LaTeX Warning: File `images/Metamycelium.jpg' not found on input line 576.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:576: Package pdftex.def Error: File `images/Metamycelium.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 ...idth=\textwidth]{images/Metamycelium.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:TerramyceliumServiceMesh' on page 30 undefined on input line 584.
+
+
+LaTeX Warning: File `images/MetamyceliumServiceMesh.jpg' not found on input line 590.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:590: Package pdftex.def Error: File `images/MetamyceliumServiceMesh.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 ...idth]{images/MetamyceliumServiceMesh.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (2.5005pt too wide) in paragraph at lines 614--615
+\OT1/cmr/m/n/10 func-tion, pro-cesses batch-processing re-quests and con-verts them into events
+ []
+
+[30] [31] [32] [33]
+Overfull \hbox (14.8618pt too wide) in paragraph at lines 676--677
+[]\OT1/cmr/m/n/10 Secondly, the cen-tralised au-then-ti-ca-tion and au-tho-riza-tion com-po-nent stream-
+ []
+
+[34] [35] [36] [37] [38] [39]
+
+LaTeX Warning: Reference `diagram:IAM' on page 40 undefined on input line 772.
+
+
+LaTeX Warning: File `images/Metamycelium-identity-and-access-control.jpg' not found on input line 776.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:776: Package pdftex.def Error: File `images/Metamycelium-identity-and-access-control.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.776 ...mycelium-identity-and-access-control.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40] [41]
+
+Package natbib Warning: Citation `wieringa2014design' on page 42 undefined on input line 814.
+
+
+Package natbib Warning: Citation `wieringa2014design' on page 42 undefined on input line 818.
+
+
+LaTeX Warning: Reference `TerramyceliumPrototype' on page 42 undefined on input line 824.
+
+[42]
+
+LaTeX Warning: File `images/MetamyceliumConcrete.jpg' not found on input line 830.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:830: Package pdftex.def Error: File `images/MetamyceliumConcrete.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.830 ...newidth]{images/MetamyceliumConcrete.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `KIND2023' on page 43 undefined on input line 840.
+
+
+Package natbib Warning: Citation `terramyceliumInfrastructure' on page 43 undefined on input line 842.
+
+
+Package natbib Warning: Citation `ArtifactHub2023' on page 43 undefined on input line 844.
+
+[43]
+
+Package natbib Warning: Citation `HashiCorpVaultHelm2023' on page 44 undefined on input line 854.
+
+[44]
+
+LaTeX Warning: Reference `OPAISTIO' on page 45 undefined on input line 868.
+
+
+LaTeX Warning: File `images/OPA-istio-flow.png' not found on input line 874.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:874: Package pdftex.def Error: File `images/OPA-istio-flow.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.874 ...th=\linewidth]{images/OPA-istio-flow.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `YelpDataset' on page 45 undefined on input line 884.
+
+
+Package natbib Warning: Citation `ClimateExplorer' on page 45 undefined on input line 884.
+
+
+Package natbib Warning: Citation `MovieLens20MDataset' on page 45 undefined on input line 886.
+
+
+Package natbib Warning: Citation `visualcrossing' on page 45 undefined on input line 888.
+
+[45]
+
+Package natbib Warning: Citation `Carroll1995' on page 46 undefined on input line 900.
+
+
+Package natbib Warning: Citation `KazmanATAM' on page 46 undefined on input line 900.
+
+
+LaTeX Warning: Reference `s1Table' on page 46 undefined on input line 900.
+
+
+LaTeX Warning: Reference `s6Table' on page 46 undefined on input line 900.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:908: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.908   \begin{tabularx}
+                        {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8c...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:908: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.908   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:908: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.908   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:910: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.910   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:912: Misplaced alignment tab character &.
+l.912   \textbf{Scenario Description:} &
+                                         The system is subjected to a high v...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 912--913
+[]\OT1/cmr/bx/n/10 Scenario De-scrip-tion:  \OT1/cmr/m/n/10 The sys-tem is sub-jected to a high vol-ume
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:914: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.914   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:916: Misplaced alignment tab character &.
+l.916   \textbf{Relevant Quality Attributes:} &
+                                                Performance, Scalability. \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:918: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.918   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:920: Misplaced alignment tab character &.
+l.920   \textbf{Expected Outcome:} &
+                                     The system can ingest, store, and proce...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:922: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.922   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:924: LaTeX Error: \begin{table} on input line 902 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.924   \end{tabularx}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:936: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936   \begin{tabularx}
+                        {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8c...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:936: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.936   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:936: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.936   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:938: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.938   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:940: Misplaced alignment tab character &.
+l.940   \textbf{Scenario Description:} &
+                                         The system is subjected to a high v...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:942: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.942   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:944: Misplaced alignment tab character &.
+l.944   \textbf{Relevant Quality Attributes:} &
+                                                Performance, Scalability. \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:946: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.946   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:948: Misplaced alignment tab character &.
+l.948   \textbf{Expected Outcome:} &
+                                     The system can ingest, store, and proce...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:950: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.950   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:952: LaTeX Error: \begin{table} on input line 930 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.952   \end{tabularx}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:962: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.962   \begin{tabularx}
+                        {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8c...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:962: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.962   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:962: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.962   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:964: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.964   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:966: Misplaced alignment tab character &.
+l.966   \textbf{Scenario Description:} &
+                                         The system is exposed to a diverse ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 966--967
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:968: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.968   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:970: Misplaced alignment tab character &.
+l.970   \textbf{Relevant Quality Attributes:} &
+                                                Variety, Interoperability. \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:972: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.972   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:974: Misplaced alignment tab character &.
+l.974   \textbf{Expected Outcome:} &
+                                     The system can handle and process diffe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:976: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.976   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:978: LaTeX Error: \begin{table} on input line 956 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.978   \end{tabularx}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:988: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.988   \begin{tabularx}
+                        {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8c...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:988: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.988   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:988: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.988   \begin{tabularx}{\columnwidth}
+                                      {|>{\raggedright\arraybackslash}p{2.8c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:990: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.990   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:992: Misplaced alignment tab character &.
+l.992   \textbf{Scenario Description:} &
+                                         The system processes complex querie...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:994: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.994   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:996: Misplaced alignment tab character &.
+l.996   \textbf{Relevant Quality Attributes:} &
+                                                Computational Efficiency, Pe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:998: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.998   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1000: Misplaced alignment tab character &.
+l.1000   \textbf{Expected Outcome:} &
+                                      The system can efficiently handle and ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1002: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1002   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1004: LaTeX Error: \begin{table} on input line 982 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1004   \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1014: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014   \begin{tabularx}
+                         {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1014: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.1014   \begin{tabularx}{\columnwidth}
+                                       {|>{\raggedright\arraybackslash}p{2.8...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1014: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.1014   \begin{tabularx}{\columnwidth}
+                                       {|>{\raggedright\arraybackslash}p{2.8...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1016: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1016   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1018: Misplaced alignment tab character &.
+l.1018   \textbf{Scenario Description:} &
+                                          This scenario underscores the syst...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1020: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1020   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1022: Misplaced alignment tab character &.
+l.1022   \textbf{Relevant Quality Attributes:} &
+                                                 Confidentiality, Integrity,...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1024: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1024   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1026: Misplaced alignment tab character &.
+l.1026   \textbf{Expected Outcome:} &
+                                      The system securely manages secrets, e...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1028: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1028   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1030: LaTeX Error: \begin{table} on input line 1008 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1030   \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1040: LaTeX Error: Environment tabularx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1040   \begin{tabularx}
+                         {\columnwidth}{|>{\raggedright\arraybackslash}p{2.8...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1040: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.1040   \begin{tabularx}{\columnwidth}
+                                       {|>{\raggedright\arraybackslash}p{2.8...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1040: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.1040   \begin{tabularx}{\columnwidth}
+                                       {|>{\raggedright\arraybackslash}p{2.8...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1042: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1042   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1044: Misplaced alignment tab character &.
+l.1044   \textbf{Scenario Description:} &
+                                          The system's capability is evaluat...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1046: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1046   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1048: Misplaced alignment tab character &.
+l.1048   \textbf{Relevant Quality Attributes:} &
+                                                 Confidentiality, Data Integ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1050: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1050   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1052: Misplaced alignment tab character &.
+l.1052   \textbf{Expected Outcome:} &
+                                      The system guarantees data security, w...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+
+ []
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1054: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1054   \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1056: LaTeX Error: \begin{table} on input line 1034 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1056   \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[46] [47] [48] [49]
+
+LaTeX Warning: Reference `dataLichenDashboard' on page 50 undefined on input line 1076.
+
+
+LaTeX Warning: Reference `intraDomain' on page 50 undefined on input line 1076.
+
+
+LaTeX Warning: File `images/Datalichen-dashboard.png' not found on input line 1082.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1082: Package pdftex.def Error: File `images/Datalichen-dashboard.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1082 ...twidth]{images/Datalichen-dashboard.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `images/intra-domain-flow.jpg' not found on input line 1094.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1094: Package pdftex.def Error: File `images/intra-domain-flow.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1094 ...textwidth]{images/intra-domain-flow.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `kafkaTopics' on page 50 undefined on input line 1104.
+
+
+LaTeX Warning: File `images/kafka-topics.png' not found on input line 1110.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1110: Package pdftex.def Error: File `images/kafka-topics.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1110 ...dth=\textwidth]{images/kafka-topics.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `s1Flow' on page 50 undefined on input line 1118.
+
+
+LaTeX Warning: File `images/Scenario-s1.png' not found on input line 1124.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1124: Package pdftex.def Error: File `images/Scenario-s1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 ...idth=\textwidth]{images/Scenario-s1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50]
+
+LaTeX Warning: Reference `openTelemetryTopic' on page 51 undefined on input line 1142.
+
+
+LaTeX Warning: Reference `openTelemetryFlow' on page 51 undefined on input line 1142.
+
+
+LaTeX Warning: Reference `openTelemetryTraceSpan' on page 51 undefined on input line 1142.
+
+
+LaTeX Warning: File `images/kafka-open-telemetry-topic-screenshot.png' not found on input line 1148.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1148: Package pdftex.def Error: File `images/kafka-open-telemetry-topic-screenshot.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1148 ...fka-open-telemetry-topic-screenshot.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `images/open-telemetry-flow.png' not found on input line 1160.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1160: Package pdftex.def Error: File `images/open-telemetry-flow.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1160 ...xtwidth]{images/open-telemetry-flow.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `images/open-telemetry-trace-example.png' not found on input line 1172.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1172: Package pdftex.def Error: File `images/open-telemetry-trace-example.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1172 ...images/open-telemetry-trace-example.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51]
+
+Package natbib Warning: Citation `AtaeiBigDataEnvirons' on page 52 undefined on input line 1182.
+
+
+Package natbib Warning: Citation `Kleppmann2017' on page 52 undefined on input line 1188.
+
+[52{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1204: Undefined control sequence.
+l.1204 \[ P \quad \text
+                       {implies} \quad Q \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1206: Undefined control sequence.
+l.1206 \[ Q \quad \text
+                       {implies} \quad R \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `johnson2019logic' on page 53 undefined on input line 1208.
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1210: Undefined control sequence.
+l.1210 \[ P  \quad \text
+                        {implies} \quad R \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `lee2020bigdata' on page 53 undefined on input line 1212.
+
+
+LaTeX Warning: Reference `kafkIngestionInBytesInCustomerDomainAnalyticalService' on page 53 undefined on input line 1214.
+
+
+LaTeX Warning: Reference `totalDataIngestedinBytesInCustomerDomainsAnalyticalService' on page 53 undefined on input line 1214.
+
+
+LaTeX Warning: File `images/Kafka-ingestion-in-Bytes.png' not found on input line 1220.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1220: Package pdftex.def Error: File `images/Kafka-ingestion-in-Bytes.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 ...th]{images/Kafka-ingestion-in-Bytes.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `images/total-data-ingested-in-bytes.jpeg' not found on input line 1232.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1232: Package pdftex.def Error: File `images/total-data-ingested-in-bytes.jpeg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1232 ...mages/total-data-ingested-in-bytes.jpeg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `totalDataIngestedinBytesInWeatherDomainsAnalyticalService' on page 53 undefined on input line 1240.
+
+
+LaTeX Warning: File `images/weather-domain-ingested-data-in-bytes.png' not found on input line 1246.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1246: Package pdftex.def Error: File `images/weather-domain-ingested-data-in-bytes.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1246 ...ather-domain-ingested-data-in-bytes.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `dataIngestedInCustomerDomainAnalyticalServiceTable' on page 53 undefined on input line 1254.
+
+
+LaTeX Warning: Reference `dataIngestedInWeatherDomainAnalyticalServiceTable' on page 53 undefined on input line 1302.
+
+[53] [54]
+
+LaTeX Warning: Reference `cusetomerAndWeatherDomainAnalyaticalServicesLatencies' on page 55 undefined on input line 1366.
+
+
+LaTeX Warning: File `images/customer-and-weather-domain-analytics-service-latency.png' not found on input line 1372.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1372: Package pdftex.def Error: File `images/customer-and-weather-domain-analytics-service-latency.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1372 ...er-domain-analytics-service-latency.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55]
+
+LaTeX Warning: Reference `openTelemetryServiceCpuUsage' on page 56 undefined on input line 1390.
+
+
+LaTeX Warning: File `images/Open-telemetry-service-CPU-usage.png' not found on input line 1396.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1396: Package pdftex.def Error: File `images/Open-telemetry-service-CPU-usage.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1396 ...es/Open-telemetry-service-CPU-usage.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `table:telemetry-cpu-usage' on page 56 undefined on input line 1404.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56]
+
+LaTeX Warning: Reference `kubernetesClusterCpuUsage' on page 57 undefined on input line 1454.
+
+
+LaTeX Warning: File `images/kubernetes-cluster-CPU-usage.png' not found on input line 1460.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1460: Package pdftex.def Error: File `images/kubernetes-cluster-CPU-usage.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1460 ...images/kubernetes-cluster-CPU-usage.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `kubernetesClusterReadAndWrite' on page 57 undefined on input line 1468.
+
+
+LaTeX Warning: Reference `kubernetesClusterNetworkStatistics' on page 57 undefined on input line 1468.
+
+
+LaTeX Warning: File `images/Kubernetes-cluster-data-read-write.png' not found on input line 1474.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1474: Package pdftex.def Error: File `images/Kubernetes-cluster-data-read-write.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1474 .../Kubernetes-cluster-data-read-write.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/kubernetes-cluster-network-data-received-and-sent.png' not found on input line 1486.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1486: Package pdftex.def Error: File `images/kubernetes-cluster-network-data-received-and-sent.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1486 ...ster-network-data-received-and-sent.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[57]
+
+LaTeX Warning: Reference `kubernetesClusterNetworkStatistics' on page 58 undefined on input line 1498.
+
+[58]
+
+LaTeX Warning: Reference `kubernetesClusterMemoryUsage' on page 59 undefined on input line 1510.
+
+
+Package natbib Warning: Citation `terramyceliumInfrastructure' on page 59 undefined on input line 1510.
+
+
+Package natbib Warning: Citation `terramyceliumHelmChartsAndApplications' on page 59 undefined on input line 1510.
+
+
+LaTeX Warning: File `images/Memory-usage-for-various-services-in-kube.png' not found on input line 1516.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1516: Package pdftex.def Error: File `images/Memory-usage-for-various-services-in-kube.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1516 ...-usage-for-various-services-in-kube.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `table:memory-cpu-correlation' on page 59 undefined on input line 1524.
+
+
+Overfull \hbox (155.43277pt too wide) in paragraph at lines 1536--1571
+ [][] 
+ []
+
+[59]
+
+LaTeX Warning: Reference `numberOfErrorsInTelemetryProcessingService' on page 60 undefined on input line 1580.
+
+
+LaTeX Warning: File `images/number-of-errors-in-telemetry-processing-service.png' not found on input line 1588.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1588: Package pdftex.def Error: File `images/number-of-errors-in-telemetry-processing-service.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1588 ...ors-in-telemetry-processing-service.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[60]
+
+LaTeX Warning: Reference `customerDomainStreamingTopicStatistics' on page 61 undefined on input line 1606.
+
+
+LaTeX Warning: File `images/customer-domain-stream-data-topic-statistics.png' not found on input line 1612.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1612: Package pdftex.def Error: File `images/customer-domain-stream-data-topic-statistics.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1612 ...domain-stream-data-topic-statistics.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `memoryUtilizationInCustomerDomainInHighVelocityCase' on page 61 undefined on input line 1620.
+
+
+LaTeX Warning: Reference `memoryUtilizationInWeatherDomainInHighVelocityCase' on page 61 undefined on input line 1620.
+
+[61]
+
+LaTeX Warning: File `images/memory-utilization-in-customer-domain-in-streaming-case.png' not found on input line 1626.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1626: Package pdftex.def Error: File `images/memory-utilization-in-customer-domain-in-streaming-case.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1626 ...n-customer-domain-in-streaming-case.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `images/memory-utilization-in-weather-domain-in-streaming-case.png' not found on input line 1638.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1638: Package pdftex.def Error: File `images/memory-utilization-in-weather-domain-in-streaming-case.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1638 ...in-weather-domain-in-streaming-case.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `kafkaIngestionLatencyInStreamingCase' on page 62 undefined on input line 1648.
+
+
+LaTeX Warning: File `images/kafka-ingestion-latency-sum-streaming-case.png' not found on input line 1654.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1654: Package pdftex.def Error: File `images/kafka-ingestion-latency-sum-streaming-case.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1654 ...ngestion-latency-sum-streaming-case.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `processingDurationInStreamingCaseInWeatherDomain' on page 62 undefined on input line 1662.
+
+
+LaTeX Warning: File `images/processing-duration-streaming-case-in-weather-domain.png' not found on input line 1668.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1668: Package pdftex.def Error: File `images/processing-duration-streaming-case-in-weather-domain.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1668 ...on-streaming-case-in-weather-domain.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[62] [63]
+
+LaTeX Warning: Reference `dataScientistFlowWithAuthentication' on page 64 undefined on input line 1690.
+
+
+LaTeX Warning: File `images/data-scientist-data-lichen-flow-with-authentication.jpg' not found on input line 1696.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1696: Package pdftex.def Error: File `images/data-scientist-data-lichen-flow-with-authentication.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1696 ...ata-lichen-flow-with-authentication.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64]
+
+LaTeX Warning: Reference `dataScientistSecretRetrievalDelayInSeconds' on page 65 undefined on input line 1732.
+
+
+LaTeX Warning: File `images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png' not found on input line 1738.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1738: Package pdftex.def Error: File `images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1738 ...conds-In-Data-Scientist-Application.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `cpuUtilizationInDataScientistApplication' on page 65 undefined on input line 1746.
+
+
+LaTeX Warning: File `images/CPU-utilization-data-scientist-application.png' not found on input line 1752.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1752: Package pdftex.def Error: File `images/CPU-utilization-data-scientist-application.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1752 ...lization-data-scientist-application.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `memoryUtilizationInDataScientistApplication' on page 65 undefined on input line 1762.
+
+
+LaTeX Warning: File `images/memory-utilization-in-data-scientist-application.png' not found on input line 1768.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1768: Package pdftex.def Error: File `images/memory-utilization-in-data-scientist-application.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1768 ...ation-in-data-scientist-application.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `queryProcessingDurationInDataScienceApplication' on page 65 undefined on input line 1778.
+
+
+LaTeX Warning: File `images/query-processing-duration-in-data-science-application.png' not found on input line 1784.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:1784: Package pdftex.def Error: File `images/query-processing-duration-in-data-science-application.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1784 ...uration-in-data-science-application.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65] [66] [67] [68] [69] [70] [71]
+
+Package natbib Warning: Citation `rad2017big' on page 72 undefined on input line 1912.
+
+[72]
+Overfull \hbox (2.91724pt too wide) in paragraph at lines 1932--1932
+[]\OT1/cmr/m/n/10 The re-search method-ol-ogy for so-lic-it-ing ex-pert feed-back com-prised five stages: 
+ []
+
+
+Package natbib Warning: Citation `creswell2007qualitative' on page 73 undefined on input line 1948.
+
+[73]
+
+Package natbib Warning: Citation `kallio2016systematic' on page 74 undefined on input line 1968.
+
+
+Package natbib Warning: Citation `baltes2022sampling' on page 74 undefined on input line 1980.
+
+
+LaTeX Warning: Reference `tab:experts' on page 74 undefined on input line 1980.
+
+[74]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2040--2049
+[] 
+ []
+
+[75]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2058--2067
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2076--2085
+[] 
+ []
+
+[76]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2102--2111
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2120--2129
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2138--2147
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2156--2165
+[] 
+ []
+
+[77]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2174--2183
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2192--2201
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2216--2225
+[] 
+ []
+
+[78]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2234--2243
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2252--2261
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2270--2279
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2288--2297
+[] 
+ []
+
+[79]
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2306--2315
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2324--2333
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2342--2351
+[] 
+ []
+
+
+Overfull \hbox (6.80005pt too wide) in paragraph at lines 2360--2369
+[] 
+ []
+
+[80]
+
+LaTeX Warning: Reference `tab:responses' on page 81 undefined on input line 2376.
+
+
+Overfull \hbox (329.55266pt too wide) in paragraph at lines 2384--2401
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `tab:coding_summary' on page 81 undefined on input line 2408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2420
+[]|\OT1/cmr/m/n/10 Number
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2420
+\OT1/cmr/m/n/10 of Cod-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2421
+[]|\OT1/cmr/m/n/10 Number
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2421
+\OT1/cmr/m/n/10 of Items
+ []
+
+
+Overfull \hbox (1.4979pt too wide) in paragraph at lines 2416--2447
+ [][] 
+ []
+
+[81] [82]
+
+LaTeX Warning: Reference `fig:quantitativeSummaryForExpertOpinion' on page 83 undefined on input line 2458.
+
+
+Overfull \hbox (3.50061pt too wide) in paragraph at lines 2458--2459
+[]\OT1/cmr/m/n/10 "Other Opin-ions," which pre-sented sup-ple-men-tary per-spec-tives and thoughts,
+ []
+
+
+LaTeX Warning: File `images/Quantitative-Summary-For-Codes.png' not found on input line 2464.
+
+
+/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex:2464: Package pdftex.def Error: File `images/Quantitative-Summary-For-Codes.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2464 ...ages/Quantitative-Summary-For-Codes.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83] [84] [85]
+Overfull \hbox (7.52832pt too wide) in paragraph at lines 2504--2505
+[]\OT1/cmr/m/n/10 Future re-search di-rec-tions pro-posed for in-te-grat-ing Ter-ramycelium with emerg-
+ []
+
+[86]
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  A138D658A4AF30E1A7BD76C9D42F914D;15053.
+ ) 
+Here is how much of TeX's memory you used:
+ 11780 strings out of 476025
+ 231716 string characters out of 5779036
+ 1872388 words of memory out of 5000000
+ 31738 multiletter control sequences out of 15000+600000
+ 516876 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,10n,76p,1399b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (120 pages, 427630 bytes).
+PDF statistics:
+ 831 PDF objects out of 1000 (max. 8388607)
+ 670 compressed objects within 7 object streams
+ 292 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
