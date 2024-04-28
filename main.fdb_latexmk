@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1714294263 "main.aux" "main.bbl" "main" 1714294935 0
+["bibtex main"] 1714295127 "main.aux" "main.bbl" "main" 1714295127 2
   "./bibfile.bib" 1714294248 257594 866d7703fdf6e05e7f55b81d2cad890a ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1678549815 29462 43db4fe246825ec69ed81b2463c17f04 ""
-  "main.aux" 1714294935 33606 27329b7cbd7d761dabdc9a094500b458 "pdflatex"
+  "main.aux" 1714295127 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1714294932 "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" "main.pdf" "main" 1714294935 2
-  "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" 1714294932 190096 03f336fbea7c0c16468f2709e8232deb ""
+["pdflatex"] 1714295124 "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" "main.pdf" "main" 1714295127 2
+  "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" 1714295124 190391 7061a59e39ab6642626359ec475bd060 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -153,11 +153,11 @@
   "images/query-processing-duration-in-data-science-application.png" 1714288711 95978 329de4a99b1ffeda57ee293a60e3efc2 ""
   "images/total-data-ingested-in-bytes.jpeg" 1714288711 48348 30460dadec5a50742329ab03b7ada8cc ""
   "images/weather-domain-ingested-data-in-bytes.png" 1714288711 74128 a28bb4e49320f617f2578bf3e7d57f45 ""
-  "main.aux" 1714294935 33606 27329b7cbd7d761dabdc9a094500b458 "pdflatex"
-  "main.bbl" 1714294263 22428 51c9a0977cc7372cc33f2e9bf1373ead "bibtex main"
-  "main.out" 1714294935 15053 a138d658a4af30e1a7bd76c9d42f914d "pdflatex"
-  "main.spl" 1714294932 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1714294932 190096 03f336fbea7c0c16468f2709e8232deb ""
+  "main.aux" 1714295127 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.bbl" 1714295127 0 d41d8cd98f00b204e9800998ecf8427e "bibtex main"
+  "main.out" 0 -1 0 "pdflatex"
+  "main.spl" 1714295124 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1714295124 190391 7061a59e39ab6642626359ec475bd060 ""
   (generated)
   "main.aux"
   "main.log"
