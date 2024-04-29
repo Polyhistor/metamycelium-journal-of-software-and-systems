@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1714382395 -1
+["bibtex main"] 1714382884 "main.aux" "main.bbl" "main" 1714382887 0
   "./bibfile.bib" 1714380698 257529 1f563925311419cae9045efff1e2e63c ""
-  "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1678549815 29462 43db4fe246825ec69ed81b2463c17f04 ""
-  "main.aux" 1714382395 33399 bb564b1d9ebadbd0900423d1e9825e26 "pdflatex"
+  "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/bibtex/bst/base/plain.bst" 1678549815 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "main.aux" 1714382887 33746 3e00bfebde4f5a80d949f5cf1a04711e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1714382392 "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" "main.pdf" "main" 1714382395 2
-  "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" 1714382388 186932 bab4fb80bdd84ef808668dc63bcf2e0f ""
+["pdflatex"] 1714382884 "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" "main.pdf" "main" 1714382887 0
+  "/Users/pataei/Desktop/Projects/Terramycelium-Journal-of-Software-and-System/main.tex" 1714382881 189271 6b210b0deddb1e228b03091a183387bc ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -156,11 +156,11 @@
   "images/query-processing-duration-in-data-science-application.png" 1714288711 95978 329de4a99b1ffeda57ee293a60e3efc2 ""
   "images/total-data-ingested-in-bytes.jpeg" 1714288711 48348 30460dadec5a50742329ab03b7ada8cc ""
   "images/weather-domain-ingested-data-in-bytes.png" 1714288711 74128 a28bb4e49320f617f2578bf3e7d57f45 ""
-  "main.aux" 1714382395 33399 bb564b1d9ebadbd0900423d1e9825e26 "pdflatex"
-  "main.bbl" 1714381214 22375 5ef9b3480bfefd62350c9ee98e355cd3 "bibtex main"
-  "main.out" 1714382395 15053 a138d658a4af30e1a7bd76c9d42f914d "pdflatex"
-  "main.spl" 1714382393 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1714382388 186932 bab4fb80bdd84ef808668dc63bcf2e0f ""
+  "main.aux" 1714382887 33746 3e00bfebde4f5a80d949f5cf1a04711e "pdflatex"
+  "main.bbl" 1714382884 22129 22cc2f016fe969a5e59a8a7adf641633 "bibtex main"
+  "main.out" 1714382887 15053 a138d658a4af30e1a7bd76c9d42f914d "pdflatex"
+  "main.spl" 1714382884 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1714382881 189271 6b210b0deddb1e228b03091a183387bc ""
   (generated)
   "main.aux"
   "main.log"

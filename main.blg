@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: bibfile.bib
+Warning--to sort, need author or key in wg2015iso
+Warning--to sort, need author or key in terramyceliumInfrastructure
+Warning--to sort, need author or key in visualcrossing
+Warning--to sort, need author or key in terramyceliumHelmChartsAndApplications
+Warning--empty booktitle in Amatriain2013
+Warning--empty journal in MStodaytomorrow
+Warning--empty publisher in nakagawa2009towards
+You've used 104 entries,
+            2118 wiz_defined-function locations,
+            1053 strings with 21456 characters,
+and the built_in function-call counts, 33724 in all, are:
+= -- 3253
+> -- 1613
+< -- 26
++ -- 661
+- -- 538
+* -- 2086
+:= -- 5526
+add.period$ -- 321
+call.type$ -- 104
+change.case$ -- 562
+chr.to.int$ -- 0
+cite$ -- 111
+duplicate$ -- 1360
+empty$ -- 2733
+format.name$ -- 538
+if$ -- 7222
+int.to.chr$ -- 0
+int.to.str$ -- 104
+missing$ -- 107
+newline$ -- 516
+num.names$ -- 200
+pop$ -- 766
+preamble$ -- 1
+purify$ -- 475
+quote$ -- 0
+skip$ -- 990
+stack$ -- 0
+substring$ -- 1673
+swap$ -- 326
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 370
+warning$ -- 7
+while$ -- 302
+width$ -- 107
+write$ -- 1100
+(There were 7 warnings)

@@ -1,4 +1,4 @@
-\documentclass[preprint,12pt,authoryear]{elsarticle}
+\documentclass[preprint,12pt]{elsarticle}
 
 \usepackage{lineno,hyperref}
 \usepackage{longtable}
@@ -29,9 +29,7 @@
 \journal{Journal of \LaTeX\ Templates}
 
 
-%% `Elsevier LaTeX' style
-\bibliographystyle{elsarticle-num}
-%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
 
@@ -236,16 +234,53 @@ After defining the types of requirements and identifying relevant requirements, 
 
 A systematic strategy for presenting software and system requirements that includes informal model verification techniques is recognised due to its established use in both business and academia \cite{kassab2014state}. The method for illustrating functional requirements adheres to the principles stated in the ISO/IEC/IEEE standard 29148 \cite{ISO29148}. The requirements representation is structured based on system modes, detailing the primary components of the system, followed by the requirements. This technique is based on the requirement specification published for the NASA Wide-field InfraRed Explorer (WIRE) system \cite{NASA} and the Software Engineering Body of Knowledge (SEBoK) \cite{abran2004software}. The requirements are outlined in Table~\ref{table:systemRequirements}.
 
-% \begin{longtable}{|p{5cm}|p{1cm}|p{1cm}|p{3.4cm}|}
-%     \hline
-%     Study & Author & Year & Type \
-%     \hline
-%     \endhead
-%     Towards a big Data reference architecture & test & 2013 & Master's Dissertation \
-%     \hline
-%     \caption{RAs and Standards found by the result of the SLR}
-%     \label{table:SLR}
-% \end{longtable}
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{|p{2cm}|p{1cm}|p{9cm}|}
+    \hline
+    \textbf{Category} & \textbf{Code} & \textbf{Requirement} \\
+    \hline
+    \endhead
+    Volume & Vol-1 & System needs to support asynchronous, streaming, and batch processing to collect data from centralized, distributed, and other sources. \\
+    \hline
+    Volume & Vol-2 & System needs to provide scalable storage for massive data sets. \\
+    \hline
+    Velocity & Vel-1 & System needs to support slow, bursty, and high throughput data transmission between data sources. \\
+    \hline
+    Velocity & Vel-2 & System needs to stream data to data consumers in a timely manner. \\
+    \hline
+    Velocity & Vel-3 & System needs to be able to ingest multiple, continuous, time-varying data streams. \\
+    \hline
+    Velocity & Vel-4 & System shall support fast search from streaming and processed data with high accuracy and relevancy. \\
+    \hline
+    Velocity & Vel-5 & System should be able to process data in a real-time or near real-time manner. \\
+    \hline
+    Variety & Var-1 & System needs to support data in various formats ranging from structured to semi-structured and unstructured data. \\
+    \hline
+    Variety & Var-2 & System needs to support aggregation, standardization, and normalization of data from disparate sources. \\
+    \hline
+    Variety & Var-3 & System shall support adaptation mechanisms for schema evolution. \\
+    \hline
+    Variety & Var-4 & System can provide mechanisms to automatically include new data sources. \\
+    \hline
+    Value & Val-1 & System needs to be able to handle compute-intensive analytical processing and machine learning techniques. \\
+    \hline
+    Value & Val-2 & System needs to support two types of analytical processing: batch and streaming. \\
+    \hline
+    Value & Val-3 & System needs to support different output file formats for different purposes. \\
+    \hline
+    Value & Val-4 & System needs to support streaming results to the consumers. \\
+    \hline
+    Security \& Privacy & SaP-1 & System needs to protect and retain the privacy and security of sensitive data. \\
+    \hline
+    Security \& Privacy & SaP-2 & System needs to have access control, and multi-level, policy-driven authentication on protected data and processing nodes. \\
+    \hline
+    Veracity & Ver-1 & System needs to support data quality curation including classification, pre-processing, format reduction, and transformation. \\
+    \hline
+    Veracity & Ver-2 & System needs to support data provenance including data life cycle management and long-term preservation. \\
+    \hline
+    \caption{Terramycelium Software and System Requirements}
+    \label{table:systemRequirements}
+\end{longtable}
 
 \section{Theory}
 
@@ -2407,8 +2442,11 @@ In conclusion, Terramycelium contributes to BD system architecture discussions, 
 
 
 
+\bibliographystyle{plain}
 \bibliography{bibfile}
 
 
 
 \end{document}
+
+\endinput
