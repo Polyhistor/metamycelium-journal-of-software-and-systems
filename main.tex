@@ -3,13 +3,14 @@
 \usepackage{lineno,hyperref}
 \usepackage{longtable}
 \usepackage{array,etoolbox,multirow}
-\usepackage[toc,page]{appendix}
+% \usepackage[toc,page]{appendix}
 \usepackage{rotating}
 \usepackage{enumitem}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{tabularx}
-\usepackage[numberedbib]{natbib}
+\usepackage{natbib}
+
 
 
 
@@ -27,33 +28,6 @@
 
 \journal{Journal of \LaTeX\ Templates}
 
-%%%%%%%%%%%%%%%%%%%%%%%
-%% Elsevier bibliography style
-%%%%%%%%%%%%%%%%%%%%%%%
-%% To change the style, put a % in front of the second line of the current style and
-%% remove the % from the second line of the style you would like to use.
-%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Numbered
-%\bibliographystyle{model1-num-names}
-
-%% Numbered without titles
-%\bibliographystyle{model1a-num-names}
-
-%% Harvard
-%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
-
-%% Vancouver numbered
-%\usepackage{numcompress}\bibliographystyle{model3-num-names}
-
-%% Vancouver name/year
-%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
-
-%% APA style
-%\bibliographystyle{model5-names}\biboptions{authoryear}
-
-%% AMA style
-%\usepackage{numcompress}\bibliographystyle{model6-num-names}
 
 %% `Elsevier LaTeX' style
 \bibliographystyle{elsarticle-num}
@@ -262,16 +236,16 @@ After defining the types of requirements and identifying relevant requirements, 
 
 A systematic strategy for presenting software and system requirements that includes informal model verification techniques is recognised due to its established use in both business and academia \cite{kassab2014state}. The method for illustrating functional requirements adheres to the principles stated in the ISO/IEC/IEEE standard 29148 \cite{ISO29148}. The requirements representation is structured based on system modes, detailing the primary components of the system, followed by the requirements. This technique is based on the requirement specification published for the NASA Wide-field InfraRed Explorer (WIRE) system \cite{NASA} and the Software Engineering Body of Knowledge (SEBoK) \cite{abran2004software}. The requirements are outlined in Table~\ref{table:systemRequirements}.
 
-\begin{longtable}{|p{5cm}|p{1cm}|p{1cm}|p{3.4cm}|}
-    \hline
-    Study & Author & Year & Type \
-    \hline
-    \endhead
-    Towards a big Data reference architecture & test & 2013 & Master's Dissertation \
-    \hline
-    \caption{RAs and Standards found by the result of the SLR}
-    \label{table:SLR}
-\end{longtable}
+% \begin{longtable}{|p{5cm}|p{1cm}|p{1cm}|p{3.4cm}|}
+%     \hline
+%     Study & Author & Year & Type \
+%     \hline
+%     \endhead
+%     Towards a big Data reference architecture & test & 2013 & Master's Dissertation \
+%     \hline
+%     \caption{RAs and Standards found by the result of the SLR}
+%     \label{table:SLR}
+% \end{longtable}
 
 \section{Theory}
 
@@ -2432,10 +2406,9 @@ The research indicates a shift towards agile data management practices, aligning
 In conclusion, Terramycelium contributes to BD system architecture discussions, suggesting the viability of distributed architectures. Its practical implementation and scalability in diverse ecosystems warrant further investigation, emphasizing the need for ongoing research in BD architecture.
 
 
-\bibliographystyle{elsarticle-num}
+
 \bibliography{bibfile}
 
-\appendix
 
 
 \end{document}
