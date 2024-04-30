@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  30 APR 2024 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  30 APR 2024 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,12 +408,12 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [1
 
 
-{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8]
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7]
 Overfull \hbox (1.12375pt too wide) in paragraph at lines 163--164
 []\OT1/cmr/m/n/12 The arte-fact is cre-ated us-ing the Ar-chi-tec-tural Def-i-ni-tion Lan-guage (ADL)
  []
 
-[9] [10] [11] [12]
+[8] [9] [10] [11] [12]
 Overfull \hbox (2.08197pt too wide) in paragraph at lines 238--238
 []|\OT1/cmr/bx/n/12 Code| 
  []
@@ -693,7 +693,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,76p,1697b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (88 pages, 3483746 bytes).
+Output written on main.pdf (88 pages, 3483466 bytes).
 PDF statistics:
  1217 PDF objects out of 1440 (max. 8388607)
  1025 compressed objects within 11 object streams
