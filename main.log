@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  29 APR 2024 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  30 APR 2024 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,11 +393,11 @@ Package hyperref Info: Link coloring OFF on input line 34.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -409,389 +409,244 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 
 
 {/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (1.12375pt too wide) in paragraph at lines 165--166
+Overfull \hbox (1.12375pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/12 The arte-fact is cre-ated us-ing the Ar-chi-tec-tural Def-i-ni-tion Lan-guage (ADL)
  []
 
 [10] [11] [12] [13]
-Overfull \hbox (2.08197pt too wide) in paragraph at lines 240--240
+Overfull \hbox (2.08197pt too wide) in paragraph at lines 239--239
 []|\OT1/cmr/bx/n/12 Code| 
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 247--248
+Underfull \hbox (badness 2735) in paragraph at lines 246--247
 []|\OT1/cmr/m/n/12 System needs to sup-port slow, bursty, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 []|\OT1/cmr/m/n/12 SaP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/12 SaP-
  []
 
-[14] [15] [16] [17]
-<images/data-planes.png, id=577, 907.13907pt x 383.18156pt>
+[14] [15] [16] [17] [18]
+<images/data-planes.png, id=527, 907.13907pt x 383.18156pt>
 File: images/data-planes.png Graphic file (type png)
 <use images/data-planes.png>
-Package pdftex.def Info: images/data-planes.png  used on input line 323.
+Package pdftex.def Info: images/data-planes.png  used on input line 322.
 (pdftex.def)             Requested size: 390.0pt x 164.73561pt.
- [18] [19 <./images/data-planes.png>] [20]
-Overfull \hbox (4.76118pt too wide) in paragraph at lines 359--360
+ [19 <./images/data-planes.png>] [20]
+Overfull \hbox (4.76118pt too wide) in paragraph at lines 358--359
 []\OT1/cmr/m/n/12 Data en-gi-neer-ing chal-lenges are typ-i-cally com-plex and wide-ranging, rather
  []
 
 [21] [22] [23]
-<images/Event-architecture.png, id=647, 1664.46844pt x 882.29625pt>
+<images/Event-architecture.png, id=591, 1664.46844pt x 882.29625pt>
 File: images/Event-architecture.png Graphic file (type png)
 <use images/Event-architecture.png>
-Package pdftex.def Info: images/Event-architecture.png  used on input line 411.
+Package pdftex.def Info: images/Event-architecture.png  used on input line 410.
 (pdftex.def)             Requested size: 369.88582pt x 196.05786pt.
  [24 <./images/Event-architecture.png>] [25]
-<images/Metamycelium.jpg, id=666, 1973.3725pt x 895.345pt>
+<images/Metamycelium.jpg, id=609, 1973.3725pt x 895.345pt>
 File: images/Metamycelium.jpg Graphic file (type jpg)
 <use images/Metamycelium.jpg>
-Package pdftex.def Info: images/Metamycelium.jpg  used on input line 503.
+Package pdftex.def Info: images/Metamycelium.jpg  used on input line 502.
 (pdftex.def)             Requested size: 548.5pt x 248.8642pt.
-<images/MetamyceliumServiceMesh.jpg, id=668, 1744.5175pt x 736.7525pt>
+ [26] [27 <./images/Metamycelium.jpg>]
+<images/MetamyceliumServiceMesh.jpg, id=621, 1744.5175pt x 736.7525pt>
 File: images/MetamyceliumServiceMesh.jpg Graphic file (type jpg)
 <use images/MetamyceliumServiceMesh.jpg>
-Package pdftex.def Info: images/MetamyceliumServiceMesh.jpg  used on input line 517.
+Package pdftex.def Info: images/MetamyceliumServiceMesh.jpg  used on input line 516.
 (pdftex.def)             Requested size: 390.0pt x 164.70541pt.
- [26] [27 <./images/Metamycelium.jpg>] [28 <./images/MetamyceliumServiceMesh.jpg>] [29] [30]
-Overfull \hbox (3.48859pt too wide) in paragraph at lines 599--600
+ [28 <./images/MetamyceliumServiceMesh.jpg>] [29] [30]
+Overfull \hbox (3.48859pt too wide) in paragraph at lines 598--599
 []\OT1/cmr/bx/n/12 Egress Gate-way: \OT1/cmr/m/n/12 The in-clu-sion of an egress gate-way in Ter-ramycelium
  []
 
 [31] [32] [33]
-Overfull \hbox (11.4624pt too wide) in paragraph at lines 649--650
+Overfull \hbox (11.4624pt too wide) in paragraph at lines 648--649
 []\OT1/cmr/bx/n/12 Telemetry Pro-ces-sor: \OT1/cmr/m/n/12 The de-cen-tralised ar-chi-tec-ture of Ter-ramycelium
  []
 
 [34]
-Overfull \hbox (0.67128pt too wide) in paragraph at lines 663--664
+Overfull \hbox (0.67128pt too wide) in paragraph at lines 662--663
 []\OT1/cmr/bx/n/12 Distributed Stor-age Ser-vice: \OT1/cmr/m/n/12 Ter-ramycelium sup-ports de-cen-tralised
  []
 
 [35] [36]
-<images/Metamycelium-identity-and-access-control.jpg, id=732, 1769.61125pt x 808.01875pt>
+<images/Metamycelium-identity-and-access-control.jpg, id=675, 1769.61125pt x 808.01875pt>
 File: images/Metamycelium-identity-and-access-control.jpg Graphic file (type jpg)
 <use images/Metamycelium-identity-and-access-control.jpg>
-Package pdftex.def Info: images/Metamycelium-identity-and-access-control.jpg  used on input line 703.
+Package pdftex.def Info: images/Metamycelium-identity-and-access-control.jpg  used on input line 702.
 (pdftex.def)             Requested size: 390.0pt x 178.0729pt.
- [37] [38 <./images/Metamycelium-identity-and-access-control.jpg>]
-<images/MetamyceliumConcrete.jpg, id=747, 1683.28876pt x 1026.83624pt>
+ [37] [38 <./images/Metamycelium-identity-and-access-control.jpg>] [39]
+<images/MetamyceliumConcrete.jpg, id=695, 1683.28876pt x 1026.83624pt>
 File: images/MetamyceliumConcrete.jpg Graphic file (type jpg)
 <use images/MetamyceliumConcrete.jpg>
-Package pdftex.def Info: images/MetamyceliumConcrete.jpg  used on input line 757.
+Package pdftex.def Info: images/MetamyceliumConcrete.jpg  used on input line 756.
 (pdftex.def)             Requested size: 390.0pt x 237.90654pt.
- [39] [40 <./images/MetamyceliumConcrete.jpg>] [41]
-<images/OPA-istio-flow.png, id=770, 1304.875pt x 603.25375pt>
+ [40 <./images/MetamyceliumConcrete.jpg>] [41]
+<images/OPA-istio-flow.png, id=714, 1304.875pt x 603.25375pt>
 File: images/OPA-istio-flow.png Graphic file (type png)
 <use images/OPA-istio-flow.png>
-Package pdftex.def Info: images/OPA-istio-flow.png  used on input line 801.
+Package pdftex.def Info: images/OPA-istio-flow.png  used on input line 800.
 (pdftex.def)             Requested size: 390.0pt x 180.29636pt.
- [42 <./images/OPA-istio-flow.png (PNG copy)>] [43] [44] [45] [46]
-<images/Datalichen-dashboard.png, id=815, 1077.02374pt x 291.0875pt>
+ [42] [43 <./images/OPA-istio-flow.png (PNG copy)>] [44] [45] [46]
+<images/Datalichen-dashboard.png, id=758, 1077.02374pt x 291.0875pt>
 File: images/Datalichen-dashboard.png Graphic file (type png)
 <use images/Datalichen-dashboard.png>
-Package pdftex.def Info: images/Datalichen-dashboard.png  used on input line 1009.
+Package pdftex.def Info: images/Datalichen-dashboard.png  used on input line 1008.
 (pdftex.def)             Requested size: 390.0pt x 105.40436pt.
-<images/intra-domain-flow.jpg, id=816, 1591.9475pt x 664.4825pt>
+<images/intra-domain-flow.jpg, id=759, 1591.9475pt x 664.4825pt>
 File: images/intra-domain-flow.jpg Graphic file (type jpg)
 <use images/intra-domain-flow.jpg>
-Package pdftex.def Info: images/intra-domain-flow.jpg  used on input line 1021.
+Package pdftex.def Info: images/intra-domain-flow.jpg  used on input line 1020.
 (pdftex.def)             Requested size: 390.0pt x 162.78442pt.
- [47 <./images/Datalichen-dashboard.png>]
-<images/kafka-topics.png, id=825, 2543.5025pt x 726.715pt>
+ [47]
+<images/kafka-topics.png, id=767, 2543.5025pt x 726.715pt>
 File: images/kafka-topics.png Graphic file (type png)
 <use images/kafka-topics.png>
-Package pdftex.def Info: images/kafka-topics.png  used on input line 1037.
+Package pdftex.def Info: images/kafka-topics.png  used on input line 1036.
 (pdftex.def)             Requested size: 390.0pt x 111.41989pt.
- [48 <./images/intra-domain-flow.jpg (PNG copy)> <./images/kafka-topics.png>]
-<images/Scenario-s1.png, id=833, 1116.17pt x 395.4775pt>
+ [48 <./images/Datalichen-dashboard.png> <./images/intra-domain-flow.jpg (PNG copy)>]
+<images/Scenario-s1.png, id=776, 1116.17pt x 395.4775pt>
 File: images/Scenario-s1.png Graphic file (type png)
 <use images/Scenario-s1.png>
-Package pdftex.def Info: images/Scenario-s1.png  used on input line 1051.
+Package pdftex.def Info: images/Scenario-s1.png  used on input line 1050.
 (pdftex.def)             Requested size: 390.0pt x 138.18385pt.
- [49 <./images/Scenario-s1.png (PNG copy)>]
-<images/kafka-open-telemetry-topic-screenshot.png, id=843, 2144.01pt x 359.3425pt>
+ [49 <./images/kafka-topics.png> <./images/Scenario-s1.png (PNG copy)>]
+<images/kafka-open-telemetry-topic-screenshot.png, id=787, 2144.01pt x 359.3425pt>
 File: images/kafka-open-telemetry-topic-screenshot.png Graphic file (type png)
 <use images/kafka-open-telemetry-topic-screenshot.png>
-Package pdftex.def Info: images/kafka-open-telemetry-topic-screenshot.png  used on input line 1075.
+Package pdftex.def Info: images/kafka-open-telemetry-topic-screenshot.png  used on input line 1074.
 (pdftex.def)             Requested size: 390.0pt x 65.36424pt.
-<images/open-telemetry-flow.png, id=844, 1426.32875pt x 377.41pt>
+<images/open-telemetry-flow.png, id=788, 1426.32875pt x 377.41pt>
 File: images/open-telemetry-flow.png Graphic file (type png)
 <use images/open-telemetry-flow.png>
-Package pdftex.def Info: images/open-telemetry-flow.png  used on input line 1087.
+Package pdftex.def Info: images/open-telemetry-flow.png  used on input line 1086.
 (pdftex.def)             Requested size: 390.0pt x 103.19203pt.
-<images/open-telemetry-trace-example.png, id=845, 700.6175pt x 577.15625pt>
+<images/open-telemetry-trace-example.png, id=789, 700.6175pt x 577.15625pt>
 File: images/open-telemetry-trace-example.png Graphic file (type png)
 <use images/open-telemetry-trace-example.png>
-Package pdftex.def Info: images/open-telemetry-trace-example.png  used on input line 1099.
+Package pdftex.def Info: images/open-telemetry-trace-example.png  used on input line 1098.
 (pdftex.def)             Requested size: 390.0pt x 321.27663pt.
- [50 <./images/kafka-open-telemetry-topic-screenshot.png> <./images/open-telemetry-flow.png (PNG copy)>] [51 <./images/open-telemetry-trace-example.png>] [52{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<images/Kafka-ingestion-in-Bytes.png, id=874, 1734.48pt x 558.085pt>
+ [50 <./images/kafka-open-telemetry-topic-screenshot.png>] [51 <./images/open-telemetry-flow.png (PNG copy)> <./images/open-telemetry-trace-example.png>] [52{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<images/Kafka-ingestion-in-Bytes.png, id=817, 1734.48pt x 558.085pt>
 File: images/Kafka-ingestion-in-Bytes.png Graphic file (type png)
 <use images/Kafka-ingestion-in-Bytes.png>
-Package pdftex.def Info: images/Kafka-ingestion-in-Bytes.png  used on input line 1147.
+Package pdftex.def Info: images/Kafka-ingestion-in-Bytes.png  used on input line 1146.
 (pdftex.def)             Requested size: 390.0pt x 125.47855pt.
-<images/total-data-ingested-in-bytes.jpeg, id=875, 1731.46875pt x 610.28pt>
+<images/total-data-ingested-in-bytes.jpeg, id=818, 1731.46875pt x 610.28pt>
 File: images/total-data-ingested-in-bytes.jpeg Graphic file (type jpg)
 <use images/total-data-ingested-in-bytes.jpeg>
-Package pdftex.def Info: images/total-data-ingested-in-bytes.jpeg  used on input line 1159.
+Package pdftex.def Info: images/total-data-ingested-in-bytes.jpeg  used on input line 1158.
 (pdftex.def)             Requested size: 390.0pt x 137.45605pt.
-<images/weather-domain-ingested-data-in-bytes.png, id=877, 1670.24pt x 551.05875pt>
+ [53 <./images/Kafka-ingestion-in-Bytes.png> <./images/total-data-ingested-in-bytes.jpeg>]
+<images/weather-domain-ingested-data-in-bytes.png, id=829, 1670.24pt x 551.05875pt>
 File: images/weather-domain-ingested-data-in-bytes.png Graphic file (type png)
 <use images/weather-domain-ingested-data-in-bytes.png>
-Package pdftex.def Info: images/weather-domain-ingested-data-in-bytes.png  used on input line 1173.
+Package pdftex.def Info: images/weather-domain-ingested-data-in-bytes.png  used on input line 1172.
 (pdftex.def)             Requested size: 390.0pt x 128.66638pt.
- [53 <./images/Kafka-ingestion-in-Bytes.png> <./images/total-data-ingested-in-bytes.jpeg>] [54 <./images/weather-domain-ingested-data-in-bytes.png>]
-<images/customer-and-weather-domain-analytics-service-latency.png, id=898, 1725.44624pt x 502.87875pt>
+ [54 <./images/weather-domain-ingested-data-in-bytes.png>]
+<images/customer-and-weather-domain-analytics-service-latency.png, id=841, 1725.44624pt x 502.87875pt>
 File: images/customer-and-weather-domain-analytics-service-latency.png Graphic file (type png)
 <use images/customer-and-weather-domain-analytics-service-latency.png>
-Package pdftex.def Info: images/customer-and-weather-domain-analytics-service-latency.png  used on input line 1299.
+Package pdftex.def Info: images/customer-and-weather-domain-analytics-service-latency.png  used on input line 1298.
 (pdftex.def)             Requested size: 390.0pt x 113.66461pt.
- [55]
-<images/Open-telemetry-service-CPU-usage.png, id=905, 1280.785pt x 370.38374pt>
+ [55] [56]
+<images/Open-telemetry-service-CPU-usage.png, id=854, 1280.785pt x 370.38374pt>
 File: images/Open-telemetry-service-CPU-usage.png Graphic file (type png)
 <use images/Open-telemetry-service-CPU-usage.png>
-Package pdftex.def Info: images/Open-telemetry-service-CPU-usage.png  used on input line 1323.
+Package pdftex.def Info: images/Open-telemetry-service-CPU-usage.png  used on input line 1322.
 (pdftex.def)             Requested size: 390.0pt x 112.77754pt.
- [56]
-<images/kubernetes-cluster-CPU-usage.png, id=913, 706.64pt x 372.39125pt>
+ [57 <./images/customer-and-weather-domain-analytics-service-latency.png> <./images/Open-telemetry-service-CPU-usage.png>]
+<images/kubernetes-cluster-CPU-usage.png, id=865, 706.64pt x 372.39125pt>
 File: images/kubernetes-cluster-CPU-usage.png Graphic file (type png)
 <use images/kubernetes-cluster-CPU-usage.png>
-Package pdftex.def Info: images/kubernetes-cluster-CPU-usage.png  used on input line 1387.
+Package pdftex.def Info: images/kubernetes-cluster-CPU-usage.png  used on input line 1386.
 (pdftex.def)             Requested size: 390.0pt x 205.5261pt.
- [57 <./images/customer-and-weather-domain-analytics-service-latency.png> <./images/Open-telemetry-service-CPU-usage.png>]
-<images/Kubernetes-cluster-data-read-write.png, id=925, 695.59875pt x 370.38374pt>
+<images/Kubernetes-cluster-data-read-write.png, id=868, 695.59875pt x 370.38374pt>
 File: images/Kubernetes-cluster-data-read-write.png Graphic file (type png)
 <use images/Kubernetes-cluster-data-read-write.png>
-Package pdftex.def Info: images/Kubernetes-cluster-data-read-write.png  used on input line 1401.
+Package pdftex.def Info: images/Kubernetes-cluster-data-read-write.png  used on input line 1400.
 (pdftex.def)             Requested size: 390.0pt x 207.66214pt.
-<images/kubernetes-cluster-network-data-received-and-sent.png, id=926, 696.6025pt x 372.39125pt>
+<images/kubernetes-cluster-network-data-received-and-sent.png, id=869, 696.6025pt x 372.39125pt>
 File: images/kubernetes-cluster-network-data-received-and-sent.png Graphic file (type png)
 <use images/kubernetes-cluster-network-data-received-and-sent.png>
-Package pdftex.def Info: images/kubernetes-cluster-network-data-received-and-sent.png  used on input line 1413.
+Package pdftex.def Info: images/kubernetes-cluster-network-data-received-and-sent.png  used on input line 1412.
 (pdftex.def)             Requested size: 390.0pt x 208.48653pt.
  [58] [59 <./images/kubernetes-cluster-CPU-usage.png>] [60 <./images/Kubernetes-cluster-data-read-write.png> <./images/kubernetes-cluster-network-data-received-and-sent.png>]
-<images/Memory-usage-for-various-services-in-kube.png, id=948, 1141.26375pt x 387.4475pt>
+<images/Memory-usage-for-various-services-in-kube.png, id=891, 1141.26375pt x 387.4475pt>
 File: images/Memory-usage-for-various-services-in-kube.png Graphic file (type png)
 <use images/Memory-usage-for-various-services-in-kube.png>
-Package pdftex.def Info: images/Memory-usage-for-various-services-in-kube.png  used on input line 1443.
+Package pdftex.def Info: images/Memory-usage-for-various-services-in-kube.png  used on input line 1442.
 (pdftex.def)             Requested size: 390.0pt x 132.39845pt.
- [61 <./images/Memory-usage-for-various-services-in-kube.png>]
-Overfull \hbox (135.4666pt too wide) in paragraph at lines 1463--1498
- [][] 
- []
-
-[62]
-<images/number-of-errors-in-telemetry-processing-service.png, id=966, 1123.19624pt x 382.42876pt>
+ [61]
+<images/number-of-errors-in-telemetry-processing-service.png, id=902, 1123.19624pt x 382.42876pt>
 File: images/number-of-errors-in-telemetry-processing-service.png Graphic file (type png)
 <use images/number-of-errors-in-telemetry-processing-service.png>
-Package pdftex.def Info: images/number-of-errors-in-telemetry-processing-service.png  used on input line 1515.
+Package pdftex.def Info: images/number-of-errors-in-telemetry-processing-service.png  used on input line 1507.
 (pdftex.def)             Requested size: 390.0pt x 132.78418pt.
- [63 <./images/number-of-errors-in-telemetry-processing-service.png>]
-<images/customer-domain-stream-data-topic-statistics.png, id=973, 869.2475pt x 811.03pt>
+ [62 <./images/Memory-usage-for-various-services-in-kube.png>] [63 <./images/number-of-errors-in-telemetry-processing-service.png>]
+<images/customer-domain-stream-data-topic-statistics.png, id=915, 869.2475pt x 811.03pt>
 File: images/customer-domain-stream-data-topic-statistics.png Graphic file (type png)
 <use images/customer-domain-stream-data-topic-statistics.png>
-Package pdftex.def Info: images/customer-domain-stream-data-topic-statistics.png  used on input line 1539.
+Package pdftex.def Info: images/customer-domain-stream-data-topic-statistics.png  used on input line 1531.
 (pdftex.def)             Requested size: 390.0pt x 363.88347pt.
-<images/memory-utilization-in-customer-domain-in-streaming-case.png, id=976, 820.06375pt x 768.8725pt>
+<images/memory-utilization-in-customer-domain-in-streaming-case.png, id=918, 820.06375pt x 768.8725pt>
 File: images/memory-utilization-in-customer-domain-in-streaming-case.png Graphic file (type png)
 <use images/memory-utilization-in-customer-domain-in-streaming-case.png>
-Package pdftex.def Info: images/memory-utilization-in-customer-domain-in-streaming-case.png  used on input line 1553.
+Package pdftex.def Info: images/memory-utilization-in-customer-domain-in-streaming-case.png  used on input line 1545.
 (pdftex.def)             Requested size: 227.62204pt x 213.4057pt.
-<images/memory-utilization-in-weather-domain-in-streaming-case.png, id=977, 810.02625pt x 757.83125pt>
+<images/memory-utilization-in-weather-domain-in-streaming-case.png, id=919, 810.02625pt x 757.83125pt>
 File: images/memory-utilization-in-weather-domain-in-streaming-case.png Graphic file (type png)
 <use images/memory-utilization-in-weather-domain-in-streaming-case.png>
-Package pdftex.def Info: images/memory-utilization-in-weather-domain-in-streaming-case.png  used on input line 1565.
+Package pdftex.def Info: images/memory-utilization-in-weather-domain-in-streaming-case.png  used on input line 1557.
 (pdftex.def)             Requested size: 227.62204pt x 212.9545pt.
-<images/kafka-ingestion-latency-sum-streaming-case.png, id=979, 1335.99126pt x 391.4625pt>
+ [64] [65 <./images/customer-domain-stream-data-topic-statistics.png>]
+<images/kafka-ingestion-latency-sum-streaming-case.png, id=934, 1335.99126pt x 391.4625pt>
 File: images/kafka-ingestion-latency-sum-streaming-case.png Graphic file (type png)
 <use images/kafka-ingestion-latency-sum-streaming-case.png>
-Package pdftex.def Info: images/kafka-ingestion-latency-sum-streaming-case.png  used on input line 1581.
+Package pdftex.def Info: images/kafka-ingestion-latency-sum-streaming-case.png  used on input line 1573.
 (pdftex.def)             Requested size: 390.0pt x 114.27383pt.
- [64] [65 <./images/customer-domain-stream-data-topic-statistics.png>]
-<images/processing-duration-streaming-case-in-weather-domain.png, id=994, 1324.95pt x 393.47pt>
+<images/processing-duration-streaming-case-in-weather-domain.png, id=936, 1324.95pt x 393.47pt>
 File: images/processing-duration-streaming-case-in-weather-domain.png Graphic file (type png)
 <use images/processing-duration-streaming-case-in-weather-domain.png>
-Package pdftex.def Info: images/processing-duration-streaming-case-in-weather-domain.png  used on input line 1595.
+Package pdftex.def Info: images/processing-duration-streaming-case-in-weather-domain.png  used on input line 1587.
 (pdftex.def)             Requested size: 390.0pt x 115.81447pt.
- [66 <./images/memory-utilization-in-customer-domain-in-streaming-case.png>] [67 <./images/memory-utilization-in-weather-domain-in-streaming-case.png> <./images/kafka-ingestion-latency-sum-streaming-case.png>]
-<images/data-scientist-data-lichen-flow-with-authentication.jpg, id=1009, 883.3pt x 531.9875pt>
+ [66 <./images/memory-utilization-in-customer-domain-in-streaming-case.png>] [67 <./images/memory-utilization-in-weather-domain-in-streaming-case.png> <./images/kafka-ingestion-latency-sum-streaming-case.png>] [68 <./images/processing-duration-streaming-case-in-weather-domain.png>]
+<images/data-scientist-data-lichen-flow-with-authentication.jpg, id=957, 883.3pt x 531.9875pt>
 File: images/data-scientist-data-lichen-flow-with-authentication.jpg Graphic file (type jpg)
 <use images/data-scientist-data-lichen-flow-with-authentication.jpg>
-Package pdftex.def Info: images/data-scientist-data-lichen-flow-with-authentication.jpg  used on input line 1623.
+Package pdftex.def Info: images/data-scientist-data-lichen-flow-with-authentication.jpg  used on input line 1615.
 (pdftex.def)             Requested size: 390.0pt x 234.88696pt.
- [68 <./images/processing-duration-streaming-case-in-weather-domain.png>] [69 <./images/data-scientist-data-lichen-flow-with-authentication.jpg (PNG copy)>]
-<images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png, id=1026, 1970.36125pt x 524.96124pt>
+ [69 <./images/data-scientist-data-lichen-flow-with-authentication.jpg (PNG copy)>]
+<images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png, id=964, 1970.36125pt x 524.96124pt>
 File: images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png Graphic file (type png)
 <use images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png>
-Package pdftex.def Info: images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png  used on input line 1665.
+Package pdftex.def Info: images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png  used on input line 1657.
 (pdftex.def)             Requested size: 390.0pt x 103.90099pt.
-<images/CPU-utilization-data-scientist-application.png, id=1028, 1972.36874pt x 541.02126pt>
+ [70 <./images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png>]
+<images/CPU-utilization-data-scientist-application.png, id=978, 1972.36874pt x 541.02126pt>
 File: images/CPU-utilization-data-scientist-application.png Graphic file (type png)
 <use images/CPU-utilization-data-scientist-application.png>
-Package pdftex.def Info: images/CPU-utilization-data-scientist-application.png  used on input line 1679.
+Package pdftex.def Info: images/CPU-utilization-data-scientist-application.png  used on input line 1671.
 (pdftex.def)             Requested size: 390.0pt x 106.97229pt.
- [70 <./images/Secret-Retrieval-Delay-in-Seconds-In-Data-Scientist-Application.png> <./images/CPU-utilization-data-scientist-application.png>]
-<images/memory-utilization-in-data-scientist-application.png, id=1039, 1985.4175pt x 547.04375pt>
+<images/memory-utilization-in-data-scientist-application.png, id=980, 1985.4175pt x 547.04375pt>
 File: images/memory-utilization-in-data-scientist-application.png Graphic file (type png)
 <use images/memory-utilization-in-data-scientist-application.png>
-Package pdftex.def Info: images/memory-utilization-in-data-scientist-application.png  used on input line 1695.
+Package pdftex.def Info: images/memory-utilization-in-data-scientist-application.png  used on input line 1687.
 (pdftex.def)             Requested size: 390.0pt x 107.45355pt.
-<images/query-processing-duration-in-data-science-application.png, id=1041, 1964.33875pt x 538.01pt>
+<images/query-processing-duration-in-data-science-application.png, id=982, 1964.33875pt x 538.01pt>
 File: images/query-processing-duration-in-data-science-application.png Graphic file (type png)
 <use images/query-processing-duration-in-data-science-application.png>
-Package pdftex.def Info: images/query-processing-duration-in-data-science-application.png  used on input line 1711.
+Package pdftex.def Info: images/query-processing-duration-in-data-science-application.png  used on input line 1703.
 (pdftex.def)             Requested size: 390.0pt x 106.81198pt.
- [71 <./images/memory-utilization-in-data-scientist-application.png> <./images/query-processing-duration-in-data-science-application.png>] [72] [73] [74] [75] [76] [77] [78]
-Overfull \hbox (1.43205pt too wide) in paragraph at lines 1907--1908
-[]\OT1/cmr/m/n/12 Purposive sam-pling iden-ti-fied ex-perts, pro-vid-ing in-depth in-sights through
- []
-
-[79]
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 1965--1974
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 1983--1992
-[] 
- []
-
-[80]
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2001--2010
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2027--2036
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2045--2054
-[] 
- []
-
-[81]
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2063--2072
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2081--2090
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2099--2108
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2117--2126
-[] 
- []
-
-[82]
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2141--2150
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2159--2168
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2177--2186
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2195--2204
-[] 
- []
-
-[83]
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2213--2222
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2231--2240
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2249--2258
-[] 
- []
-
-
-Overfull \hbox (3.16397pt too wide) in paragraph at lines 2261--2262
-[]\OT1/cmr/m/n/12 The chal-lenge that could emerge from the ar-chi-tec-ture's cross-functionality
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2267--2276
-[] 
- []
-
-
-Overfull \hbox (7.84998pt too wide) in paragraph at lines 2285--2294
-[] 
- []
-
-[84]
-Overfull \hbox (371.6593pt too wide) in paragraph at lines 2309--2326
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2345
-[]|\OT1/cmr/m/n/12 Number
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 2345--2345
-\OT1/cmr/m/n/12 of Cod-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2346
-[]|\OT1/cmr/m/n/12 Number
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2346
-\OT1/cmr/m/n/12 of Items
- []
-
-
-Overfull \hbox (19.35269pt too wide) in paragraph at lines 2383--2384
-[]\OT1/cmr/m/n/12 "Other Opin-ions," which pre-sented sup-ple-men-tary per-spec-tives and thoughts,
- []
-
-[85] [86]
-<images/Quantitative-Summary-For-Codes.png, id=1149, 1397.22pt x 540.0175pt>
-File: images/Quantitative-Summary-For-Codes.png Graphic file (type png)
-<use images/Quantitative-Summary-For-Codes.png>
-Package pdftex.def Info: images/Quantitative-Summary-For-Codes.png  used on input line 2389.
-(pdftex.def)             Requested size: 390.0pt x 150.73418pt.
- [87 <./images/Quantitative-Summary-For-Codes.png>]
-Overfull \hbox (16.24115pt too wide) in paragraph at lines 2409--2410
-\OT1/cmr/m/n/12 time im-pli-ca-tions for or-gan-i-sa-tions. To fully de-ploy all as-pects of Ter-ramycelium,
- []
-
-[88] [89] [90] (./main.bbl
+ [71 <./images/CPU-utilization-data-scientist-application.png> <./images/memory-utilization-in-data-scientist-application.png>] [72 <./images/query-processing-duration-in-data-science-application.png>] [73] [74] [75] [76] [77] [78] [79] (./main.bbl
 Overfull \hbox (69.6994pt too wide) in paragraph at lines 7--9
 \OT1/cmr/m/n/12 https://anonymous.4open.science/r/helmChartsAndApplicationsForMetamycelium-
  []
@@ -806,43 +661,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 \OT1/cmr/m/n/12 https://anonymous.4open.science/r/InfrastructureForMetamycelium-
  []
 
-[91] [92]
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+[80] [81] [82]
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 []\OT1/cmr/m/n/12 NEMAC+FernLeaf Col-lab-o-ra-tive.  U.s. cli-mate re-silience
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 129--132
+Underfull \hbox (badness 4556) in paragraph at lines 124--127
 \OT1/cmr/m/n/12 toolkit: Cli-mate ex-plorer, 2023.  Avail-able from: []$\OT1/cmtt/m/n/12 https :
  []
 
-[93] [94]
-Overfull \hbox (73.35446pt too wide) in paragraph at lines 200--203
+[83]
+Overfull \hbox (73.35446pt too wide) in paragraph at lines 190--193
 []\OT1/cmr/m/n/12 HashiCorp.  Vault helm chart.  https://artifacthub.io/packages/helm/hashicorp/vault,
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 211--213
+Underfull \hbox (badness 1558) in paragraph at lines 201--203
 []\OT1/cmr/m/n/12 IEEE In-ter-na-tional Or-ga-ni-za-tion for Stan-dard-iza-tion (ISO/IEC).
  []
 
-[95] [96] [97] [98] [99]) [100] (./main.aux)
+[84] [85] [86] [87] [88]) [89] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A138D658A4AF30E1A7BD76C9D42F914D;15053.
+(rerunfilecheck)             Checksum: CC0D9E205AE61E8B11D8D5B0FD7C15D9;12303.
  ) 
 Here is how much of TeX's memory you used:
- 12560 strings out of 476025
- 208945 string characters out of 5779036
- 1877388 words of memory out of 5000000
- 32431 multiletter control sequences out of 15000+600000
- 521394 words of font info for 67 fonts, out of 8000000 for 9000
+ 12500 strings out of 476025
+ 207575 string characters out of 5779036
+ 1878388 words of memory out of 5000000
+ 32401 multiletter control sequences out of 15000+600000
+ 523842 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,76p,1398b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (100 pages, 3561382 bytes).
+ 75i,10n,76p,1697b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (89 pages, 3488306 bytes).
 PDF statistics:
- 1382 PDF objects out of 1440 (max. 8388607)
- 1173 compressed objects within 12 object streams
- 377 named destinations out of 1000 (max. 500000)
- 768 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1246 PDF objects out of 1440 (max. 8388607)
+ 1053 compressed objects within 11 object streams
+ 340 named destinations out of 1000 (max. 500000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 

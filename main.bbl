@@ -70,11 +70,6 @@ Mehdi Bahrami and Mukesh Singhal.
 \newblock {\em The role of cloud computing architecture in big data}, pages 275--295.
 \newblock Springer, 2015.
 
-\bibitem{baltes2022sampling}
-Sebastian Baltes and Paul Ralph.
-\newblock Sampling in software engineering research: A critical review and guidelines.
-\newblock {\em Empirical Software Engineering}, 27(4):1--31, 2022.
-
 \bibitem{AtaeiSecurity}
 B~Bashari~Rad, N~Akbarzadeh, P~Ataei, and Y~Khakbiz.
 \newblock Security and privacy challenges in big data era.
@@ -134,11 +129,6 @@ NEMAC+FernLeaf Collaborative.
 George Coulouris, Jean Dollimore, and Tim Kindberg.
 \newblock {\em Distributed Systems: Concepts and Design}.
 \newblock Addison-Wesley, 4 edition, 2005.
-
-\bibitem{creswell2007qualitative}
-John~W Creswell, William~E Hanson, Vicki~L Clark~Plano, and Alejandro Morales.
-\newblock Qualitative research designs: Selection and implementation.
-\newblock {\em The counseling psychologist}, 35(2):236--264, 2007.
 
 \bibitem{czarnecki2012cool}
 Krzysztof Czarnecki, Paul Gr{\"u}nbacher, Rick Rabiser, Klaus Schmid, and Andrzej Wasowski.
@@ -229,11 +219,6 @@ Mark Johnson.
 Stephen Kaisler, Frank Armour, J~Alberto Espinosa, and William Money.
 \newblock Big data: Issues and challenges moving forward.
 \newblock In {\em 2013 46th Hawaii International Conference on System Sciences}, pages 995--1004. IEEE, 2013.
-
-\bibitem{kallio2016systematic}
-Hanna Kallio, Anna-Maija Pietil{\"a}, Martin Johnson, and Mari Kangasniemi.
-\newblock Systematic methodological review: developing a framework for a qualitative semi-structured interview guide.
-\newblock {\em Journal of advanced nursing}, 72(12):2954--2965, 2016.
 
 \bibitem{kassab2014state}
 Mohamad Kassab, Colin Neill, and Phillip Laplante.

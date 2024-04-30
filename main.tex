@@ -35,17 +35,16 @@
 
 \begin{frontmatter}
 
-\title{Cybermycelium: Domain-Driven Distributed Reference Architecture for Big Data Systems}
+\title{Terramycelium: A Reference Architecture for Adaptive Big Data Systems}
 
 %% Group authors per affiliation:
 \author{Pouya Ataei}
-\author{Alan Litchfield}
 
 \address[mymainaddress]{School of Engineering, Computer and Mathematical Sciences, Auckland University of Technology, Auckland, New Zealand}
 
 
 \begin{abstract}
-The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges.
+    Big Data is a nascent term that emerged to describe a large amount of data that comes in different forms from various channels. In the modern world, users are the ceaseless generators of structured, semi-structured, and unstructured data that, if gleaned and crunched precisely, will reveal game-changing patterns. While opportunities exist with big data, the unprecedented amount of data has brought traditional approaches to a bottleneck, and the growth of data is outpacing technological and scientific advances in data analytics. It is estimated that approximately 75\% of the big data projects have failed within the last decade, according to multiple sources. Among the challenges, system development and data architecture are prominent. This paper aims to address these challenges by introducing a novel big data reference architecture. This reference architecture is developed by absorbing the principles of complex adaptive systems, domain-driven design, distributed systems, and event-driven systems. The reference architecture is developed following the guidelines for creating empirically grounded reference architectures and is evaluated using two distinct methods: a case-mechanism experiment and expert opinion. The results of the case-mechanism experiment demonstrate the artefact's capability to meet the requirements of big data systems while being highly maintainable and scalable. Moreover, the feedback collected from the experts suggests that Terramycelium offers advantages for organisations committed to big data, yet its alignment with organisational cultures or structures varies.
 \end{abstract}
 
 \begin{keyword}
@@ -1452,55 +1451,48 @@ The association between CPU and memory usage is further explained in Table~\ref{
 
 Similarly, as the CPU utilisation decreases, there is also a decrease in the amount of memory being used, which highlights the effective management of resources during periods of less demanding processing. The ability to efficiently use memory in a way that can adapt to different needs is crucial for sustaining the performance of a system and ensuring that real-time data is managed smoothly across the entire infrastructure.
 
-\begin{table*}
+\begin{table}[htbp]
+    \centering
+    \resizebox{\textwidth}{!}{%
+      \begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        \textbf{Date \& Time} & \textbf{Svc A (B)} & \textbf{Svc B (B)} & \textbf{Svc C (B)} & \textbf{Svc D (B)} & \textbf{Svc E (B)} \\
+        \hline
+        09/06 00:00 & H (12,750,000,000) & H (12,800,000,000) & L (4,700,000,000) & H (14,000,000,000) & H (13,500,000,000) \\
+        \hline
+        09/06 12:00 & L (6,350,000,000) & L (6,400,000,000) & L (4,650,000,000) & M (10,850,000,000) & M (10,650,000,000) \\
+        \hline
+        09/07 00:00 & L (6,375,000,000) & L (6,425,000,000) & L (4,675,000,000) & M (10,870,000,000) & M (10,670,000,000) \\
+        \hline
+        09/07 12:00 & L (6,360,000,000) & L (6,410,000,000) & L (4,680,000,000) & M (10,860,000,000) & M (10,660,000,000) \\
+        \hline
+        09/08 00:00 & M (9,560,000,000) & M (9,610,000,000) & L (4,720,000,000) & H (13,800,000,000) & H (13,300,000,000) \\
+        \hline
+        09/08 12:00 & M (9,580,000,000) & M (9,630,000,000) & L (4,750,000,000) & H (13,850,000,000) & H (13,350,000,000) \\
+        \hline
+        09/09 00:00 & H (12,780,000,000) & H (12,830,000,000) & L (4,770,000,000) & H (14,100,000,000) & H (13,600,000,000) \\
+        \hline
+        09/09 12:00 & H (12,760,000,000) & H (12,810,000,000) & L (4,760,000,000) & H (14,050,000,000) & H (13,550,000,000) \\
+        \hline
+        09/10 00:00 & M (9,570,000,000) & M (9,620,000,000) & L (4,730,000,000) & M (10,900,000,000) & M (10,700,000,000) \\
+        \hline
+        09/10 12:00 & M (9,590,000,000) & M (9,640,000,000) & L (4,740,000,000) & M (10,920,000,000) & M (10,680,000,000) \\
+        \hline
+        09/11 00:00 & M (9,565,000,000) & M (9,615,000,000) & L (4,710,000,000) & M (10,880,000,000) & M (10,670,000,000) \\
+        \hline
+        09/11 12:00 & H (12,770,000,000) & H (12,820,000,000) & L (4,775,000,000) & H (14,110,000,000) & H (13,610,000,000) \\
+        \hline
+        09/12 00:00 & M (9,585,000,000) & M (9,635,000,000) & L (4,745,000,000) & M (10,930,000,000) & M (10,690,000,000) \\
+        \hline
+        09/12 12:00 & M (9,600,000,000) & M (9,650,000,000) & L (4,755,000,000) & M (10,950,000,000) & M (10,700,000,000) \\
+        \hline
+      \end{tabular}%
+    }
+    \caption{Correlated Memory and CPU Usage for Various Services. Legend: B - Bytes, H - High Usage, M - Medium Usage, L - Low Usage. Service A corresponds to localhost:8000, B to localhost:8001, C to localhost:8005, D to localhost:8006, and E to localhost:8008.}
+    \label{table:memory-cpu-correlation}
+\end{table}
 
-  \centering
 
-  \scriptsize % Further reduce the font size.
-
-  \setlength{\tabcolsep}{10pt} % Tighten the space between columns.
-
-  \begin{tabular}{|l|l|l|l|l|l|}
-
-  \hline
-
-  \textbf{Date \& Time} & \textbf{Svc A (B)} & \textbf{Svc B (B)} & \textbf{Svc C (B)} & \textbf{Svc D (B)} & \textbf{Svc E (B)} \\ \hline
-
-  09/06 00:00 & H (12,750,000,000) & H (12,800,000,000) & L (4,700,000,000) & H (14,000,000,000) & H (13,500,000,000) \\ \hline
-
-  09/06 12:00 & L (6,350,000,000)  & L (6,400,000,000)  & L (4,650,000,000) & M (10,850,000,000) & M (10,650,000,000) \\ \hline
-
-  09/07 00:00 & L (6,375,000,000)  & L (6,425,000,000)  & L (4,675,000,000) & M (10,870,000,000) & M (10,670,000,000) \\ \hline
-
-  09/07 12:00 & L (6,360,000,000)  & L (6,410,000,000)  & L (4,680,000,000) & M (10,860,000,000) & M (10,660,000,000) \\ \hline
-
-  09/08 00:00 & M (9,560,000,000)  & M (9,610,000,000)  & L (4,720,000,000) & H (13,800,000,000) & H (13,300,000,000) \\ \hline
-
-  09/08 12:00 & M (9,580,000,000)  & M (9,630,000,000)  & L (4,750,000,000) & H (13,850,000,000) & H (13,350,000,000) \\ \hline
-
-  09/09 00:00 & H (12,780,000,000) & H (12,830,000,000) & L (4,770,000,000) & H (14,100,000,000) & H (13,600,000,000) \\ \hline
-
-  09/09 12:00 & H (12,760,000,000) & H (12,810,000,000) & L (4,760,000,000) & H (14,050,000,000) & H (13,550,000,000) \\ \hline
-
-  09/10 00:00 & M (9,570,000,000)  & M (9,620,000,000)  & L (4,730,000,000) & M (10,900,000,000) & M (10,700,000,000) \\ \hline
-
-  09/10 12:00 & M (9,590,000,000)  & M (9,640,000,000)  & L (4,740,000,000) & M (10,920,000,000) & M (10,680,000,000) \\ \hline
-
-  09/11 00:00 & M (9,565,000,000)  & M (9,615,000,000)  & L (4,710,000,000) & M (10,880,000,000) & M (10,670,000,000) \\ \hline
-
-  09/11 12:00 & H (12,770,000,000) & H (12,820,000,000) & L (4,775,000,000) & H (14,110,000,000) & H (13,610,000,000) \\ \hline
-
-  09/12 00:00 & M (9,585,000,000)  & M (9,635,000,000)  & L (4,745,000,000) & M (10,930,000,000) & M (10,690,000,000) \\ \hline
-
-  09/12 12:00 & M (9,600,000,000)  & M (9,650,000,000)  & L (4,755,000,000) & M (10,950,000,000) & M (10,700,000,000) \\ \hline
-
-  \end{tabular}
-
-  \caption{Correlated Memory and CPU Usage for Various Services. Legend: B - Bytes, H - High Usage, M - Medium Usage, L - Low Usage. Service A corresponds to localhost:8000, B to localhost:8001, C to localhost:8005, D to localhost:8006, and E to localhost:8008.}
-
-  \label{table:memory-cpu-correlation}
-
-\end{table*}
 
 \paragraph{Error Rate}
 
@@ -1850,567 +1842,567 @@ Construct validity is a cornerstone of our research methodology, particularly in
 
 \end{enumerate}
 
-\section{Evaluation 2: Expert Opinion}
+% \section{Evaluation 2: Expert Opinion}
 
-In the preceding section, a prototype of Terramycelium is fabricated and exposed to several simulations. Expert review is used as the second evaluation approach for the artefact. In order to acquire expert opinions, the research technique adheres to the standards set forth by Kallio (2016) in their systematic study.
+% In the preceding section, a prototype of Terramycelium is fabricated and exposed to several simulations. Expert review is used as the second evaluation approach for the artefact. In order to acquire expert opinions, the research technique adheres to the standards set forth by Kallio (2016) in their systematic study.
 
-\subsection{Research methodology for gathering expert opinion}
+% \subsection{Research methodology for gathering expert opinion}
 
-The research methodology for soliciting expert feedback comprised five stages: \begin{enumerate}[label=\alph*)]
+% The research methodology for soliciting expert feedback comprised five stages: \begin{enumerate}[label=\alph*)]
 
-  \item Rationalizing the need for expert opinion
+%   \item Rationalizing the need for expert opinion
 
-  \item Developing a preliminary guide
+%   \item Developing a preliminary guide
 
-  \item Designing a rigorous data collection method
+%   \item Designing a rigorous data collection method
 
-  \item Pilot testing the guide
+%   \item Pilot testing the guide
 
-  \item Presenting the results
+%   \item Presenting the results
 
-  \end{enumerate}
-
-  
-
-  Given the study's architectural focus, expert feedback was deemed an appropriate approach \citep{creswell2007qualitative}. In a novel domain, erudite perspectives could offer invaluable insights and enhance the theoretical underpinnings' robustness.
+%   \end{enumerate}
 
   
 
-  \subsubsection{Rationale for Expert Opinion}
+%   Given the study's architectural focus, expert feedback was deemed an appropriate approach \citep{creswell2007qualitative}. In a novel domain, erudite perspectives could offer invaluable insights and enhance the theoretical underpinnings' robustness.
 
   
 
-  The intricacy of a domain-driven distributed reference architecture for big data necessitated an evaluation transcending theoretical confines. Experts possess an unparalleled depth of knowledge, enabling them to assess practical relevance, identify oversights, and ensure industry alignment, scalability, and benchmarking against existing solutions.
+%   \subsubsection{Rationale for Expert Opinion}
 
   
 
-  Furthermore, their detached stance served as a critical counterweight, ensuring an unbiased assessment, often lacking in internal evaluations. Seeking expert opinion was essential for a comprehensive and nuanced review, validating the architecture's robustness against diverse challenges.
+%   The intricacy of a domain-driven distributed reference architecture for big data necessitated an evaluation transcending theoretical confines. Experts possess an unparalleled depth of knowledge, enabling them to assess practical relevance, identify oversights, and ensure industry alignment, scalability, and benchmarking against existing solutions.
 
   
 
-  \subsubsection{Developing the Guide}
+%   Furthermore, their detached stance served as a critical counterweight, ensuring an unbiased assessment, often lacking in internal evaluations. Seeking expert opinion was essential for a comprehensive and nuanced review, validating the architecture's robustness against diverse challenges.
 
   
 
-  The semi-structured protocol for expert opinion is inspired by the works of Kallio et al. \cite{kallio2016systematic}. This protocol is aimed at extracting expert opinion while ensuring participant-centricity. Close-ended questions facilitated quantifiable data extraction and conversation initiation.
+%   \subsubsection{Developing the Guide}
 
   
 
-  The guide was segmented into main themes and ancillary follow-up questions, adhering to a logical trajectory.
+%   The semi-structured protocol for expert opinion is inspired by the works of Kallio et al. \cite{kallio2016systematic}. This protocol is aimed at extracting expert opinion while ensuring participant-centricity. Close-ended questions facilitated quantifiable data extraction and conversation initiation.
 
   
 
-  \subsubsection{Data Collection Method}
+%   The guide was segmented into main themes and ancillary follow-up questions, adhering to a logical trajectory.
 
   
 
-  Purposive sampling identified experts, providing in-depth insights through targeted selection \cite{baltes2022sampling}. Contacts were initiated with professionals in relevant roles, such as data engineers, data architects, chief data and analytics offers, solution engineers, solution architects, principal data engineers, staff data engineers, principal architectures, and scholars and researchers whose work is in BD systems. Over two months, three experts across different sectors were selected, as displayed in Table~\ref{tab:experts}.
+%   \subsubsection{Data Collection Method}
 
-    \begin{table}[htbp]
+  
 
-    \centering
+%   Purposive sampling identified experts, providing in-depth insights through targeted selection \cite{baltes2022sampling}. Contacts were initiated with professionals in relevant roles, such as data engineers, data architects, chief data and analytics offers, solution engineers, solution architects, principal data engineers, staff data engineers, principal architectures, and scholars and researchers whose work is in BD systems. Over two months, three experts across different sectors were selected, as displayed in Table~\ref{tab:experts}.
 
-    \caption{Participant Demographics}
+%     \begin{table}[htbp]
 
-    \label{tab:experts}
+%     \centering
 
-    \begin{tabular}{llll}
+%     \caption{Participant Demographics}
 
-    \hline
+%     \label{tab:experts}
 
-    Expert & Role & Experience & Industry \\
+%     \begin{tabular}{llll}
 
-    \hline
+%     \hline
 
-    i1 & Solution Engineer & 10 years & Software Development \\
+%     Expert & Role & Experience & Industry \\
 
-    i2 & Solution Architect & 11 years & Big Data Solutions \\
+%     \hline
 
-    i3 & Principal Architect & 32 years & Biotechnology Research \\
+%     i1 & Solution Engineer & 10 years & Software Development \\
 
-    \hline
+%     i2 & Solution Architect & 11 years & Big Data Solutions \\
 
-    \end{tabular}
+%     i3 & Principal Architect & 32 years & Biotechnology Research \\
 
-  \end{table}
+%     \hline
+
+%     \end{tabular}
+
+%   \end{table}
 
     
 
   
 
-  Expert opinions were collected via Zoom. Transcripts were reviewed, rectified, and coded in NVivo based on predefined themes, including 'Applicability \& Industrial Relevance', 'Strengths \& Distinctive Features', and 'Challenges \& Potential Barriers'.
+%   Expert opinions were collected via Zoom. Transcripts were reviewed, rectified, and coded in NVivo based on predefined themes, including 'Applicability \& Industrial Relevance', 'Strengths \& Distinctive Features', and 'Challenges \& Potential Barriers'.
 
   
 
-  \subsubsection{Pilot Testing}
+%   \subsubsection{Pilot Testing}
 
   
 
-  The guide underwent internal peer review and an empirical pilot study with other researchers to diagnose incongruities, refine ancillary questions, and calibrate the discourse trajectory. This iterative refinement accentuated the study's rigour.
+%   The guide underwent internal peer review and an empirical pilot study with other researchers to diagnose incongruities, refine ancillary questions, and calibrate the discourse trajectory. This iterative refinement accentuated the study's rigour.
 
-\subsection{Thematic Analysis} \label{expertOpinion_thematicAnalysis}
+% \subsection{Thematic Analysis} \label{expertOpinion_thematicAnalysis}
 
-This section systematically identifies and analyses prominent topics seen in expert comments. This examination not only emphasises reoccurring concepts but also places the range of viewpoints that shape the artefact's structure into its proper context.
+% This section systematically identifies and analyses prominent topics seen in expert comments. This examination not only emphasises reoccurring concepts but also places the range of viewpoints that shape the artefact's structure into its proper context.
 
-\subsubsection{Applicability \& Industrial Relevance}
+% \subsubsection{Applicability \& Industrial Relevance}
 
-The domain-driven and distributed nature of the Terramycelium architecture elicits various viewpoints regarding its compatibility with existing industry practices and anticipated future developments. Although this architectural approach incorporates promising and advanced approaches, it is clear that they are not uniformly embraced in all industries.
+% The domain-driven and distributed nature of the Terramycelium architecture elicits various viewpoints regarding its compatibility with existing industry practices and anticipated future developments. Although this architectural approach incorporates promising and advanced approaches, it is clear that they are not uniformly embraced in all industries.
 
-i2 suggested that the utilisation of Terramycelium could be impacted by team configurations and the scale of the organisation. In addition, there was evidence suggesting that different practices may have a higher level of proficiency in specific data practices, with only a small proportion adopting sophisticated approaches such as microservices or streaming.
+% i2 suggested that the utilisation of Terramycelium could be impacted by team configurations and the scale of the organisation. In addition, there was evidence suggesting that different practices may have a higher level of proficiency in specific data practices, with only a small proportion adopting sophisticated approaches such as microservices or streaming.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"In certain areas, the sense is of being slightly ahead of times, with only a few diving into micro services."} - i2
+% \textit{"In certain areas, the sense is of being slightly ahead of times, with only a few diving into micro services."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-i1 highlighted the architecture's ability to handle eventing, data streaming, and batch processing. However, there were remarks made regarding possible discrepancies between current industry trends and specific aspects of the architecture.
+% i1 highlighted the architecture's ability to handle eventing, data streaming, and batch processing. However, there were remarks made regarding possible discrepancies between current industry trends and specific aspects of the architecture.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"Industry trends might not align perfectly, but this is definitely industry relevant."} - i1
+% \textit{"Industry trends might not align perfectly, but this is definitely industry relevant."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-The i3 stated that the architecture's domain-driven nature was very remarkable. As industries move towards greater granularity and distribution of data ownership, they face obstacles. In addition, i3 expressed concerns about the intricate structure of this technique, indicating that its complexity could provide difficulties in its implementation.
+% The i3 stated that the architecture's domain-driven nature was very remarkable. As industries move towards greater granularity and distribution of data ownership, they face obstacles. In addition, i3 expressed concerns about the intricate structure of this technique, indicating that its complexity could provide difficulties in its implementation.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"The architecture's complexity might challenge some organisations, even larger ones, during adoption."} - i3
+% \textit{"The architecture's complexity might challenge some organisations, even larger ones, during adoption."} - i3
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-Considering the opinions of specialists, it is clear that Terramycelium provides promising opportunities for many sophisticated data operations. Nevertheless, the originality and intricacy of the subject could be both advantageous and challenging. It may appeal to organisations seeking new solutions, but it could also be perceived as intimidating by those accustomed to more conventional approaches or those who are not yet ready for such a significant change in their data practices.
+% Considering the opinions of specialists, it is clear that Terramycelium provides promising opportunities for many sophisticated data operations. Nevertheless, the originality and intricacy of the subject could be both advantageous and challenging. It may appeal to organisations seeking new solutions, but it could also be perceived as intimidating by those accustomed to more conventional approaches or those who are not yet ready for such a significant change in their data practices.
 
-Overall, the design of the Terramycelium architecture shows great potential. However, its deviation from conventional approaches may be seen as a possible obstacle to wider acceptance. The difficulty lies in synchronising its sophisticated characteristics with the existing level of preparedness and environment in the industry.
+% Overall, the design of the Terramycelium architecture shows great potential. However, its deviation from conventional approaches may be seen as a possible obstacle to wider acceptance. The difficulty lies in synchronising its sophisticated characteristics with the existing level of preparedness and environment in the industry.
 
-\subsubsection{Strengths \& Distinctive Features}
+% \subsubsection{Strengths \& Distinctive Features}
 
-The Terramycelium architecture received praise for its unique characteristics and apparent advantages, especially in terms of incorporating domain-driven design into data engineering.
+% The Terramycelium architecture received praise for its unique characteristics and apparent advantages, especially in terms of incorporating domain-driven design into data engineering.
 
-i1 emphasised the value of using a domain-driven strategy in conjunction with data engineering. Recognising the historical separation between software engineering and data engineering in terms of their objectives and key performance indicators (KPIs), they highlighted the importance of closing this gap.
+% i1 emphasised the value of using a domain-driven strategy in conjunction with data engineering. Recognising the historical separation between software engineering and data engineering in terms of their objectives and key performance indicators (KPIs), they highlighted the importance of closing this gap.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"Most of the time you were talking, you were putting software engineering and data engineering together. It sounds really good in theory... If you manage to solve that, that could be a good strength to have... teams working together, you don't have a person in the middle, so you can move much faster."} - i1
+% \textit{"Most of the time you were talking, you were putting software engineering and data engineering together. It sounds really good in theory... If you manage to solve that, that could be a good strength to have... teams working together, you don't have a person in the middle, so you can move much faster."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-This integration was also recognised as a novel approach by i2, who added:
+% This integration was also recognised as a novel approach by i2, who added:
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"I like that. That will be quite distinctive, because I'm yet to see that in action."} - i2
+% \textit{"I like that. That will be quite distinctive, because I'm yet to see that in action."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-The architecture's adaptable characteristics and all-encompassing ecosystem also garnered favourable recognition. i3 mentioned that the architecture seems to be effective for its capacity to handle a wide range of tasks, including batch eventing and stream processing. I3 also emphasised the importance of maintaining immutable logs, which ensures a reliable and authoritative source of information. This expert highlighted the importance of data dimensions such as bitemporality and immutability. 
+% The architecture's adaptable characteristics and all-encompassing ecosystem also garnered favourable recognition. i3 mentioned that the architecture seems to be effective for its capacity to handle a wide range of tasks, including batch eventing and stream processing. I3 also emphasised the importance of maintaining immutable logs, which ensures a reliable and authoritative source of information. This expert highlighted the importance of data dimensions such as bitemporality and immutability. 
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"It considers everything from batch eventing, ACLs. Immutable log is very important these days because it helps identify the single source of truth."} - i3
+% \textit{"It considers everything from batch eventing, ACLs. Immutable log is very important these days because it helps identify the single source of truth."} - i3
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-Moreover, the architecture's ability to promote the idea of a platform as a service was considered essential.
+% Moreover, the architecture's ability to promote the idea of a platform as a service was considered essential.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"As a platform as a service, the fact that you can self provision components as you need to is very important."} - i3
+% \textit{"As a platform as a service, the fact that you can self provision components as you need to is very important."} - i3
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-The modular architecture was emphasised by i2, which also emphasised the benefits of having distinct boundaries between various components, including data governance, domain-driven design, and data ingestion.
+% The modular architecture was emphasised by i2, which also emphasised the benefits of having distinct boundaries between various components, including data governance, domain-driven design, and data ingestion.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"I love this modular approach... I love the fact that it also calls out domain driven design and a clear separation of data governance."} - i2
+% \textit{"I love this modular approach... I love the fact that it also calls out domain driven design and a clear separation of data governance."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-Aside from discussing how it differs from other methods and recognising its distinct position, i1 also explored how it combines various data views, such as data mesh and event-driven features.
+% Aside from discussing how it differs from other methods and recognising its distinct position, i1 also explored how it combines various data views, such as data mesh and event-driven features.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"I think bits and pieces come from a different view. Like you have a data mesh here, event-driven there... The approach of an open policy agent looks promising."} - i1
+% \textit{"I think bits and pieces come from a different view. Like you have a data mesh here, event-driven there... The approach of an open policy agent looks promising."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-In wrapping up, the overall sentiment suggests that while certain components of Terramycelium might find parallels in the industry, its holistic approach and integration of domain-driven design with data engineering make it a unique offering. The challenge, however, remains in ensuring this distinctiveness translates into practical advantages in the evolving landscape of data operations.
+% In wrapping up, the overall sentiment suggests that while certain components of Terramycelium might find parallels in the industry, its holistic approach and integration of domain-driven design with data engineering make it a unique offering. The challenge, however, remains in ensuring this distinctiveness translates into practical advantages in the evolving landscape of data operations.
 
-\subsubsection{Challenges \& Potential Barriers}
+% \subsubsection{Challenges \& Potential Barriers}
 
-A number of specialists offered their perspectives on possible difficulties and obstacles for the Terramycelium framework. The worries revolve around many difficulties like the availability of skillsets, the inherent challenges of data governance, and concerns related to scalability.
+% A number of specialists offered their perspectives on possible difficulties and obstacles for the Terramycelium framework. The worries revolve around many difficulties like the availability of skillsets, the inherent challenges of data governance, and concerns related to scalability.
 
-i1 have found a significant issue involving the necessary competence to effectively utilise the architecture, particularly at the local level.
+% i1 have found a significant issue involving the necessary competence to effectively utilise the architecture, particularly at the local level.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"Skill set, that would be the biggest challenge. Because again, there would be very few data engineers who would be capable of implementing this or convincing their manager to adopt this. On the other hand, centralizing can be easy, but it is usually very hard to do well..."} - i1
+% \textit{"Skill set, that would be the biggest challenge. Because again, there would be very few data engineers who would be capable of implementing this or convincing their manager to adopt this. On the other hand, centralizing can be easy, but it is usually very hard to do well..."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-The expert talked about potential political influences and the challenges of large-scale enterprise governance. This is in relation to the federated computational governance.
+% The expert talked about potential political influences and the challenges of large-scale enterprise governance. This is in relation to the federated computational governance.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"The idea of federated computational governance is outstanding! It's the architect's dream of automatic quality control. But, talking big enterprises, there's always politics in it, and not all may be open to such approach"} - i1
+% \textit{"The idea of federated computational governance is outstanding! It's the architect's dream of automatic quality control. But, talking big enterprises, there's always politics in it, and not all may be open to such approach"} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-Additionally, i1 emphasised how crucial governance flexibility is, particularly when considering software engineering.
+% Additionally, i1 emphasised how crucial governance flexibility is, particularly when considering software engineering.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"From a software engineering background... the computational governance should not affect everything a developer do everyday. In Software, it is a bit more flexible for the deloper to own a service and make several technical decisions; So this component may introduce frictions as different teams may have different KPIs which is not in-line with the federated computational governance."} - i1
+% \textit{"From a software engineering background... the computational governance should not affect everything a developer do everyday. In Software, it is a bit more flexible for the deloper to own a service and make several technical decisions; So this component may introduce frictions as different teams may have different KPIs which is not in-line with the federated computational governance."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-i1 specifically brought up the difficulties that could develop as a result of changing ownership patterns and dependencies.
+% i1 specifically brought up the difficulties that could develop as a result of changing ownership patterns and dependencies.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"So one of the challenges I can see happening at some point as it evolves, is the ownership might become a bit more complicated... Now I have dependencies on A and B, I'm not aware of."} - i1
+% \textit{"So one of the challenges I can see happening at some point as it evolves, is the ownership might become a bit more complicated... Now I have dependencies on A and B, I'm not aware of."} - i1
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-i2 elaborated on concerns related to the scale of data and domain specificity.
+% i2 elaborated on concerns related to the scale of data and domain specificity.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"Some companies have very large data sets and so moving to a domain-driven is kind of wall sometimes if they have slightly monolithic systems... This data is just so big, so hard to play with."} - i2
+% \textit{"Some companies have very large data sets and so moving to a domain-driven is kind of wall sometimes if they have slightly monolithic systems... This data is just so big, so hard to play with."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-He also pointed out challenges related to the centralised ownership of data domains. This comment further affirmed the challenges discussed in this study and the theories that underpinned the development of the artefact.
+% He also pointed out challenges related to the centralised ownership of data domains. This comment further affirmed the challenges discussed in this study and the theories that underpinned the development of the artefact.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"Yeah, where they already have this centralised kind of data warehouse and they don't know who owns what... and which domain should own, it because it is not clear."} - i2
+% \textit{"Yeah, where they already have this centralised kind of data warehouse and they don't know who owns what... and which domain should own, it because it is not clear."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-A potential problem regarding the handling of unstructured data was also flagged.
+% A potential problem regarding the handling of unstructured data was also flagged.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"I'm not sure how it works with things like unstructured data... But when you really get into really, really unstructured stuff, like emails or something like that, data governance just becomes crazy."} - i2
+% \textit{"I'm not sure how it works with things like unstructured data... But when you really get into really, really unstructured stuff, like emails or something like that, data governance just becomes crazy."} - i2
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-The challenge that could emerge from the architecture's cross-functionality was brought to light by i3.
+% The challenge that could emerge from the architecture's cross-functionality was brought to light by i3.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"This typically won't be owned by one team, because this is an ecosystem. You'll have database administrators, developers, infrastructure people, product people, service catalog people... I think the cross functionality of it all is what's difficult."} - i3
+% \textit{"This typically won't be owned by one team, because this is an ecosystem. You'll have database administrators, developers, infrastructure people, product people, service catalog people... I think the cross functionality of it all is what's difficult."} - i3
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-Additional obstacles that smaller organisations might encounter when attempting to implement the architecture were also highlighted by i3.
+% Additional obstacles that smaller organisations might encounter when attempting to implement the architecture were also highlighted by i3.
 
-\,
+% \,
 
-\setlength{\fboxsep}{0.3em}
+% \setlength{\fboxsep}{0.3em}
 
-\noindent\fbox{%
+% \noindent\fbox{%
 
-\parbox{\columnwidth}{%
+% \parbox{\columnwidth}{%
 
-\textit{"I think for small organisations, this is going to be quite possibly very difficult for them to implement. What's gonna happen is they'll just choose some cheaper version of this when you have not enough people to deliver this sort of stuff."} - i3
+% \textit{"I think for small organisations, this is going to be quite possibly very difficult for them to implement. What's gonna happen is they'll just choose some cheaper version of this when you have not enough people to deliver this sort of stuff."} - i3
 
-}%
+% }%
 
-}
+% }
 
-\,
+% \,
 
-To summarise, although Terramycelium has certain advantages, it nevertheless faces certain difficulties. The barriers encompass a range of challenges, including the details of implementation, complexities that involve several functions, governance issues, domain-specific challenges, and the availability of necessary skillsets. To tackle these problems, it is necessary to combine strategic and technological initiatives in order to guarantee that the architecture can be widely applied and is effective.
+% To summarise, although Terramycelium has certain advantages, it nevertheless faces certain difficulties. The barriers encompass a range of challenges, including the details of implementation, complexities that involve several functions, governance issues, domain-specific challenges, and the availability of necessary skillsets. To tackle these problems, it is necessary to combine strategic and technological initiatives in order to guarantee that the architecture can be widely applied and is effective.
 
-\subsection{Matrix of Responses} \label{expertOpinion_matrixResponses}
+% \subsection{Matrix of Responses} \label{expertOpinion_matrixResponses}
 
-The experts' perspectives on the Terramycelium architecture's applicability, strengths, and challenges are succinctly outlined in the table \ref{tab:responses}, which aggregates their responses.
+% The experts' perspectives on the Terramycelium architecture's applicability, strengths, and challenges are succinctly outlined in the table \ref{tab:responses}, which aggregates their responses.
 
-\begin{table*}[ht]
+% \begin{table*}[ht]
 
-  \centering
+%   \centering
 
-  \caption{Mapping of expert responses against themes.}
+%   \caption{Mapping of expert responses against themes.}
 
-  \begin{tabular}{@{}llp{0.7\columnwidth}p{0.9\columnwidth}@{}}
+%   \begin{tabular}{@{}llp{0.7\columnwidth}p{0.9\columnwidth}@{}}
 
-  \hline
+%   \hline
 
-  Expert & Applicability & Strengths & Challenges \\
+%   Expert & Applicability & Strengths & Challenges \\
 
-  \hline
+%   \hline
 
-  i1 & Mixed & Emphasises importance of flexibility in governance & Concerned about the skillset required, complexities of evolving ownership patterns, and large-scale enterprise politics \\
+%   i1 & Mixed & Emphasises importance of flexibility in governance & Concerned about the skillset required, complexities of evolving ownership patterns, and large-scale enterprise politics \\
 
-  i2 & Positive & Cites large data handling and domain specificity & Mentions challenges of clear data domain ownership and difficulties with unstructured data \\
+%   i2 & Positive & Cites large data handling and domain specificity & Mentions challenges of clear data domain ownership and difficulties with unstructured data \\
 
-  i3 & Positive & Stresses on the cross-functional nature and the ecosystem approach of the architecture & Highlights potential difficulties for smaller organisations and cross-functional challenges \\
+%   i3 & Positive & Stresses on the cross-functional nature and the ecosystem approach of the architecture & Highlights potential difficulties for smaller organisations and cross-functional challenges \\
 
-  \hline
+%   \hline
 
-  \end{tabular}
+%   \end{tabular}
 
-  \label{tab:responses}
+%   \label{tab:responses}
 
-\end{table*}
+% \end{table*}
 
-\subsection{Quantitative Summary} \label{expertOpinion_quantitativeSummary}
+% \subsection{Quantitative Summary} \label{expertOpinion_quantitativeSummary}
 
-The coding data clearly indicates that opinions and debates differed across several areas of the Terramycelium architecture. The numerical overview of these codings is presented in Table~\ref{tab:coding_summary}.
+% The coding data clearly indicates that opinions and debates differed across several areas of the Terramycelium architecture. The numerical overview of these codings is presented in Table~\ref{tab:coding_summary}.
 
-\begin{table*}
+% \begin{table*}
 
-  \centering
+%   \centering
 
-  \caption{Summary of coding references.}
+%   \caption{Summary of coding references.}
 
-  \begin{tabular}{p{0.6\textwidth}p{0.15\textwidth}p{0.15\textwidth}}
+%   \begin{tabular}{p{0.6\textwidth}p{0.15\textwidth}p{0.15\textwidth}}
 
-  \hline
+%   \hline
 
-  Theme & Number of Coding References & Number of Items Coded \\
+%   Theme & Number of Coding References & Number of Items Coded \\
 
-  \hline
+%   \hline
 
-  Applicability and Industrial Relevance & 9 & 3 \\
+%   Applicability and Industrial Relevance & 9 & 3 \\
 
-  Alignment with Industry Trends and Future Projection & 6 & 3 \\
+%   Alignment with Industry Trends and Future Projection & 6 & 3 \\
 
-  Applicability to Industry & 3 & 3 \\
+%   Applicability to Industry & 3 & 3 \\
 
-  Challenges and Potential Barriers & 9 & 3 \\
+%   Challenges and Potential Barriers & 9 & 3 \\
 
-  Adoption Challenges for Organisations & 6 & 3 \\
+%   Adoption Challenges for Organisations & 6 & 3 \\
 
-  Scenarios Where The Architecture Is Not Best Fit & 3 & 2 \\
+%   Scenarios Where The Architecture Is Not Best Fit & 3 & 2 \\
 
-  Other Opinions & 3 & 2 \\
+%   Other Opinions & 3 & 2 \\
 
-  Strength and Distinctive Features & 9 & 3 \\
+%   Strength and Distinctive Features & 9 & 3 \\
 
-  Differentiating Components of the Architecture & 3 & 3 \\
+%   Differentiating Components of the Architecture & 3 & 3 \\
 
-  Strengths of the Architecture & 6 & 3 \\
+%   Strengths of the Architecture & 6 & 3 \\
 
-  \hline
+%   \hline
 
-  \end{tabular}
+%   \end{tabular}
 
-  \label{tab:coding_summary}
+%   \label{tab:coding_summary}
 
-  \end{table*}
+%   \end{table*}
 
-The themes "Applicability and Industrial Relevance", "Challenges and Potential Barriers", and "Strength and Distinctive Features" had the most coding references, with 9 references apiece, indicating their importance in the expert debates.
+% The themes "Applicability and Industrial Relevance", "Challenges and Potential Barriers", and "Strength and Distinctive Features" had the most coding references, with 9 references apiece, indicating their importance in the expert debates.
 
-Within the section titled "Applicability and Industrial Relevance," the primary focus was on the "Alignment with Industry Trends and Future Projection," which was referenced six times.
+% Within the section titled "Applicability and Industrial Relevance," the primary focus was on the "Alignment with Industry Trends and Future Projection," which was referenced six times.
 
-The theme "Challenges and Potential Barriers" received equal attention in both "Adoption Challenges for Organisations" and situations where the architecture may not be the most suitable choice.
+% The theme "Challenges and Potential Barriers" received equal attention in both "Adoption Challenges for Organisations" and situations where the architecture may not be the most suitable choice.
 
-"Other Opinions," which presented supplementary perspectives and thoughts, was a less-discussed topic due to its inclusion of only 3 references. The data is depicted in Figure~\ref{fig:quantitativeSummaryForExpertOpinion}.
+% "Other Opinions," which presented supplementary perspectives and thoughts, was a less-discussed topic due to its inclusion of only 3 references. The data is depicted in Figure~\ref{fig:quantitativeSummaryForExpertOpinion}.
 
-\begin{figure*}[ht]
+% \begin{figure*}[ht]
 
-  \centering
+%   \centering
 
-  \includegraphics[width=\textwidth]{images/Quantitative-Summary-For-Codes.png}
+%   \includegraphics[width=\textwidth]{images/Quantitative-Summary-For-Codes.png}
 
-  \caption{Quantitative Summary For Expert Opinion}
+%   \caption{Quantitative Summary For Expert Opinion}
 
-  \label{fig:quantitativeSummaryForExpertOpinion}
+%   \label{fig:quantitativeSummaryForExpertOpinion}
 
-\end{figure*}
+% \end{figure*}
 
-\subsection{Synthesis and Reflection} \label{expertOpinion_synthesisReflection}
+% \subsection{Synthesis and Reflection} \label{expertOpinion_synthesisReflection}
 
-Experts have praised the efficiency, scalability, and effectiveness of the proposed architectural approach for handling complex operations. The architecture's ability to align with primary assumptions, handle varied scales of data, and deliver effective results in practical applications is a testament to its practical potency. However, there are areas of concern or potential limitations, such as the nascent stage of the architecture and the potential for evolution.
+% Experts have praised the efficiency, scalability, and effectiveness of the proposed architectural approach for handling complex operations. The architecture's ability to align with primary assumptions, handle varied scales of data, and deliver effective results in practical applications is a testament to its practical potency. However, there are areas of concern or potential limitations, such as the nascent stage of the architecture and the potential for evolution.
 
-Challenges like intricate data dependencies, ownership issues, and the fluid nature of data ecosystems are highlighted. Solutions like incorporating immutability and bi-temporality are discussed to address these issues. The balance between analytical and operational intents and their influence on interfacing with business processes is also explored.
+% Challenges like intricate data dependencies, ownership issues, and the fluid nature of data ecosystems are highlighted. Solutions like incorporating immutability and bi-temporality are discussed to address these issues. The balance between analytical and operational intents and their influence on interfacing with business processes is also explored.
 
-Data ownership, privacy, and governance are also discussed, with techniques like streaming between domains ensuring up-to-date data flow. The importance of customized data governance approaches and evolving governance requirements is crucial for Terramycelium's successful implementation and adoption.
+% Data ownership, privacy, and governance are also discussed, with techniques like streaming between domains ensuring up-to-date data flow. The importance of customized data governance approaches and evolving governance requirements is crucial for Terramycelium's successful implementation and adoption.
 
-Future implications of the current reference architecture include its inherent complexity, which requires specialized skills and understanding that may not be readily accessible, particularly in organizations with limited resources or expertise. Aligning technology with human and organizational dynamics is crucial for Terramycelium's successful implementation and adoption.
+% Future implications of the current reference architecture include its inherent complexity, which requires specialized skills and understanding that may not be readily accessible, particularly in organizations with limited resources or expertise. Aligning technology with human and organizational dynamics is crucial for Terramycelium's successful implementation and adoption.
 
-Not all organizations operate on a microservices architecture or adopt a fully domain-driven approach, as many still rely on legacy systems built with Java, PHP, and Fortran, which may not seamlessly integrate with or support the advanced paradigms proposed by Terramycelium. The complexity of Terramycelium's architecture is further intensified by the sheer number of components within its architecture, each adding to the complexity of implementation.
+% Not all organizations operate on a microservices architecture or adopt a fully domain-driven approach, as many still rely on legacy systems built with Java, PHP, and Fortran, which may not seamlessly integrate with or support the advanced paradigms proposed by Terramycelium. The complexity of Terramycelium's architecture is further intensified by the sheer number of components within its architecture, each adding to the complexity of implementation.
 
-The implementation of Terramycelium's comprehensive suite of components, such as IAM and secret management, presents substantial cost and time implications for organisations. To fully deploy all aspects of Terramycelium, an organization would need to invest significantly in resources and manpower, and integrate a variety of open-source technologies, which may not always have compatible interfaces. This not only extends the time and financial investment required but also necessitates a strategic approach to select and harmonize these technologies effectively within the existing organizational infrastructure.
+% The implementation of Terramycelium's comprehensive suite of components, such as IAM and secret management, presents substantial cost and time implications for organisations. To fully deploy all aspects of Terramycelium, an organization would need to invest significantly in resources and manpower, and integrate a variety of open-source technologies, which may not always have compatible interfaces. This not only extends the time and financial investment required but also necessitates a strategic approach to select and harmonize these technologies effectively within the existing organizational infrastructure.
 
-\subsection{Final Notes} \label{sec:finalNotes}
+% \subsection{Final Notes} \label{sec:finalNotes}
 
-The Terramycelium RA is a data management architecture that combines domain-driven design with event-driven communication, enhancing its applicability in data management challenges. It incorporates features like Data Lichen, bitemporality, and immutability, demonstrating an adaptive approach to the evolving landscape of data processing. The architecture has received positive feedback from experts, including professionals from leading data and eventing solutions companies. However, the Terramycelium faces challenges, including its complexity, which requires significant investment in skill development and training, which may be a barrier for organizations lacking resources or unwilling to undergo transformation. The lack of open-source support for components like Data Lichen adds to this challenge. The architecture's technical merits are acknowledged for its robustness and innovation, but it also requires a deep understanding of organizational culture, team dynamics, and change management strategies. The forthcoming section will analyze and synthesize the research findings, contextualizing them within the broader academic and practical landscape of BD systems.
+% The Terramycelium RA is a data management architecture that combines domain-driven design with event-driven communication, enhancing its applicability in data management challenges. It incorporates features like Data Lichen, bitemporality, and immutability, demonstrating an adaptive approach to the evolving landscape of data processing. The architecture has received positive feedback from experts, including professionals from leading data and eventing solutions companies. However, the Terramycelium faces challenges, including its complexity, which requires significant investment in skill development and training, which may be a barrier for organizations lacking resources or unwilling to undergo transformation. The lack of open-source support for components like Data Lichen adds to this challenge. The architecture's technical merits are acknowledged for its robustness and innovation, but it also requires a deep understanding of organizational culture, team dynamics, and change management strategies. The forthcoming section will analyze and synthesize the research findings, contextualizing them within the broader academic and practical landscape of BD systems.
 
 \section{Discussion} \label{sec:discussion}
 
@@ -2418,7 +2410,7 @@ This study explored Terramycelium, a novel approach to managing the complexities
 
 The initial evaluation, conducted through prototyping and case mechanism experiments, suggested potential benefits in data management strategies. However, the limited scope of these evaluations necessitates further investigation to represent diverse BD scenarios and workloads. The compatibility with microservices and the support for engineering practices also need to be contextualized within the broader spectrum of BD applications, considering varying operational and business requirements.
 
-Expert feedback provided valuable insights into the strengths and weaknesses of Terramycelium. The architecture's emphasis on domain-driven decentralization and event-driven services aligns with contemporary engineering practices and offers potential for integration with existing technologies (i1). However, concerns were raised regarding the practical challenges associated with implementing such a distributed system, particularly in terms of data consistency, transaction management, and operational complexity (i2, i3).
+% Expert feedback provided valuable insights into the strengths and weaknesses of Terramycelium. The architecture's emphasis on domain-driven decentralization and event-driven services aligns with contemporary engineering practices and offers potential for integration with existing technologies (i1). However, concerns were raised regarding the practical challenges associated with implementing such a distributed system, particularly in terms of data consistency, transaction management, and operational complexity (i2, i3).
 
 The domain-driven and distributed nature of Terramycelium elicited diverse viewpoints regarding its compatibility with existing industry practices and anticipated future developments. While experts acknowledged the promising and advanced approaches (i1, i2), they also highlighted potential challenges related to team configurations, organizational scale, and industry readiness (i2). The architecture's complexity might pose adoption hurdles for some organizations, even larger ones (i3).
 

@@ -708,8 +708,17 @@ INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT ./images/data-planes.png
 INPUT ./images/data-planes.png
 INPUT images/data-planes.png
@@ -827,7 +836,6 @@ INPUT ./images/Memory-usage-for-various-services-in-kube.png
 INPUT images/Memory-usage-for-various-services-in-kube.png
 INPUT ./images/Memory-usage-for-various-services-in-kube.png
 INPUT ./images/Memory-usage-for-various-services-in-kube.png
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT ./images/number-of-errors-in-telemetry-processing-service.png
 INPUT ./images/number-of-errors-in-telemetry-processing-service.png
 INPUT images/number-of-errors-in-telemetry-processing-service.png
@@ -883,11 +891,6 @@ INPUT ./images/query-processing-duration-in-data-science-application.png
 INPUT images/query-processing-duration-in-data-science-application.png
 INPUT ./images/query-processing-duration-in-data-science-application.png
 INPUT ./images/query-processing-duration-in-data-science-application.png
-INPUT ./images/Quantitative-Summary-For-Codes.png
-INPUT ./images/Quantitative-Summary-For-Codes.png
-INPUT images/Quantitative-Summary-For-Codes.png
-INPUT ./images/Quantitative-Summary-For-Codes.png
-INPUT ./images/Quantitative-Summary-For-Codes.png
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
@@ -896,7 +899,6 @@ INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

@@ -10,45 +10,45 @@ Warning--to sort, need author or key in terramyceliumHelmChartsAndApplications
 Warning--empty booktitle in Amatriain2013
 Warning--empty journal in MStodaytomorrow
 Warning--empty publisher in nakagawa2009towards
-You've used 104 entries,
+You've used 101 entries,
             2118 wiz_defined-function locations,
-            1053 strings with 21456 characters,
-and the built_in function-call counts, 33724 in all, are:
-= -- 3253
-> -- 1613
+            1032 strings with 20775 characters,
+and the built_in function-call counts, 32610 in all, are:
+= -- 3141
+> -- 1554
 < -- 26
-+ -- 661
-- -- 538
-* -- 2086
-:= -- 5526
-add.period$ -- 321
-call.type$ -- 104
-change.case$ -- 562
++ -- 638
+- -- 518
+* -- 1991
+:= -- 5338
+add.period$ -- 312
+call.type$ -- 101
+change.case$ -- 543
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1360
-empty$ -- 2733
-format.name$ -- 538
-if$ -- 7222
+cite$ -- 108
+duplicate$ -- 1327
+empty$ -- 2653
+format.name$ -- 518
+if$ -- 7000
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 107
-newline$ -- 516
-num.names$ -- 200
-pop$ -- 766
+int.to.str$ -- 101
+missing$ -- 104
+newline$ -- 501
+num.names$ -- 194
+pop$ -- 753
 preamble$ -- 1
-purify$ -- 475
+purify$ -- 459
 quote$ -- 0
-skip$ -- 990
+skip$ -- 968
 stack$ -- 0
-substring$ -- 1673
-swap$ -- 326
+substring$ -- 1586
+swap$ -- 323
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 370
+type$ -- 358
 warning$ -- 7
-while$ -- 302
-width$ -- 107
-write$ -- 1100
+while$ -- 290
+width$ -- 104
+write$ -- 1067
 (There were 7 warnings)
