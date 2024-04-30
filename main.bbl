@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{wg2015iso}
 {ISO/IEC} 26550: 2015-software and systems engineering--reference model for product line engineering and management, 2015.
@@ -24,11 +24,6 @@ Alain Abran, James~W Moore, Pierre Bourque, Robert Dupuis, and L~Tripp.
 Jameela Al-Jaroodi and Nader Mohamed.
 \newblock Characteristics and requirements of big data analytics applications.
 \newblock In {\em 2016 IEEE 2nd International Conference on Collaboration and Internet Computing (CIC)}, pages 426--432, 2016.
-
-\bibitem{Amatriain2013}
-Xavier Amatriain.
-\newblock Beyond data: from user information to business value through personalized recommendations and consumer science.
-\newblock pages 2201--2208. ACM, 2013.
 
 \bibitem{angelov2009classification}
 Samuil Angelov, Paul Grefen, and Danny Greefhorst.
@@ -109,11 +104,6 @@ Wo~L Chang and David Boyd.
 Wo~L Chang, Nancy Grady, et~al.
 \newblock Nist big data interoperability framework: volume 1, big data definitions.
 \newblock Technical report, National Institute of Standards and Technology, Gaithersburg, MD, USA, 2015.
-
-\bibitem{Chen2012}
-Hsinchun Chen, Roger~HL Chiang, and Veda~C Storey.
-\newblock Business intelligence and analytics: From big data to big impact.
-\newblock {\em MIS quarterly}, 36(4):1165, 2012.
 
 \bibitem{Cloutier2010}
 Robert Cloutier, Gerrit Muller, Dinesh Verma, Roshanak Nilchiani, Eirik Hole, and Mary Bone.
@@ -285,11 +275,6 @@ Kevin Lee and Lucy Wang.
 \newblock Ensuring data consistency in big data systems.
 \newblock In {\em Proceedings of the 2020 International Conference on Big Data}, pages 456--467, 2020.
 
-\bibitem{Marr2016}
-Bernard Marr.
-\newblock {\em Big data in practice: how 45 successful companies used big data analytics to deliver extraordinary results}.
-\newblock John Wiley and Sons, 2016.
-
 \bibitem{merson2020modeling}
 Paulo Merson and Joseph Yoder.
 \newblock Modeling microservices with ddd.
@@ -363,11 +348,6 @@ Babak~Bashari Rad and Pouya Ataei.
 Babak~Bashari Rad and Pouya Ataei.
 \newblock The big data ecosystem and its environs.
 \newblock {\em International Journal of Computer Science and Network Security (IJCSNS)}, 17(3):38, 2017.
-
-\bibitem{AtaeiHype}
-Babak~Bashari Rada, Pouya Ataeib, Yasaman Khakbizc, and Nafisseh Akbarzadehd.
-\newblock The hype of emerging technologies: Big data as a service.
-\newblock {\em Int. J. Control Theory Appl}, 2017.
 
 \bibitem{Rada2017}
 Babak~Bashari Rada, Pouya Ataeib, Yasaman Khakbizc, and Nafisseh Akbarzadehd.
@@ -467,11 +447,6 @@ Phillip Viana and Liria Sato.
 Matthias Volk, Daniel Staegemann, Ivayla Trifonova, Sascha Bosse, and Klaus Turowski.
 \newblock Identifying similarities of big data projects--a use case driven approach.
 \newblock {\em IEEE Access}, 8:186599--186619, 2020.
-
-\bibitem{wang2020response}
-C~Jason Wang, Chun~Y Ng, and Robert~H Brook.
-\newblock Response to covid-19 in taiwan: big data analytics, new technology, and proactive testing.
-\newblock {\em Jama}, 323(14):1341--1342, 2020.
 
 \bibitem{wieringa2014design}
 Roel~J Wieringa.
