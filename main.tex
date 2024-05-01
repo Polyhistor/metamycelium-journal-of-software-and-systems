@@ -292,7 +292,7 @@ This section is aimed at delineating theories that underpin the artefact. These 
 
 The techniques and methods of data engineering have experienced rapid growth, similar to the Cambrian explosion, yet the fundamental assumptions guiding data designs have not been significantly questioned \cite{DataMesh}. As per Richards \cite{richards2020fundamentals}, architectures can be classified into two main categories: monolithic, deployed as a single entity, and distributed, consisting of individually deployed sub-components. Currently, the majority of data architectures fall under the first type \cite{ataei2022state}. 
 
-Beginning with a monolith may be a straightforward and effective method for constructing a data-intensive system, but it becomes inadequate as the system grows. Although this notion is being questioned in the software engineering field with the emergence of microservices patterns \cite{MicroServicesPatterns}, data engineering continues to be influenced by monolithic designs. Enabler technologies like data warehouses and data lakes support these concepts. Furthermore, numerous groups and publications embrace the concept of a "single source of truth" \cite{ataei2022state}.
+Beginning with a monolith may be a straightforward and effective method for constructing a data-intensive system, but it becomes inadequate as the system grows. Although this notion is being questioned in the software engineering field with the emergence of microservices patterns \cite{MicroServicesPatterns}, data engineering continues to be influenced by monolithic designs. Enabler technologies like data warehouses and data lakes support these concepts.
 
 In contrast, modern data architecture paradigms like Data Mesh \cite{DataMesh} and Data Fabric \cite{GartnerDataFabric2023} and the works of Ataei et al. \cite{ataei2023towards} have gained traction as alternatives to monolithic designs. Data Mesh advocates for a decentralised approach to data management, where data ownership and governance are distributed across different domains or teams within an organisation. This shift towards federated governance addresses some of the challenges associated with monolithic architectures, such as scalability, agility, and data silos \cite{Bode2023}.
 
@@ -310,7 +310,7 @@ The problems of current BD systems stem from the basic assumption of segregating
 
 These two distinct data planes are often managed within separate organisational hierarchies. Data scientists, business intelligence analysts, machine learning engineers, data stewards, and data engineers typically work under the guidance of the Chief Data and Analytics Officer (CDAO) to generate business value from data. Software developers, product owners, and quality assurance engineers typically collaborate with the Chief Technology Officer (CTO) \cite{DataMesh}.
 
-As a consequence, there are now two separate technology systems in place, requiring significant resources to connect them. Two distinct topologies and integration designs have emerged due to this gap, facilitated by ETLs (Figure \ref{fig:dataPlanes}). Data extraction from operational databases is often accomplished through a batch ETL process. These ETL processes typically lack a clearly defined agreement with the operational database and solely consume its data. This emphasises the vulnerability of this system, as modifications made to operational databases can impact analytical applications downstream. As time passes, the complexity of ETL jobs grows, making them harder to maintain and leading to a decline in data quality. 
+As a consequence, there are now two separate technology stacks in place, requiring significant resources to connect them (Figure \ref{fig:dataPlanes}). Data extraction from operational databases is often accomplished through a batch ETL process. These ETL processes typically lack a clearly defined agreement with the operational database and solely consume its data. This emphasises the vulnerability of this system, as modifications made to operational databases can impact analytical applications downstream. As time passes, the complexity of ETL jobs grows, making them harder to maintain and leading to a decline in data quality. 
 
 \begin{figure}[ht]
 
@@ -324,11 +324,11 @@ As a consequence, there are now two separate technology systems in place, requir
 
 \end{figure}
 
-Many technologies developed over the years are based on this notion. Although these technologies excel in managing the amount, speed, and diversity of data, current data difficulties revolve around the increase in data sources, data quality, and data architecture. 
+Many technologies developed over the years are based on this architecture. Although these technologies excel in managing the amount, speed, and diversity of data, current data difficulties revolve around the increase in data sources, data quality, and the complexities of data architecture. 
 
-Information is typically gathered and unified across multiple platforms. Some of this data may exceed the boundaries of the organisation. Therefore, considering the points mentioned earlier and the difficulties outlined, it is suggested that modern data architectures should move away from centralising data in a single large analytical database and instead focus on connecting analytical data from various sources \cite{ataei2022state,DataMesh}. 
 
-The artefact created for this study utilises earlier solutions to improve and overcome their limitations. This artefact tries to move away from highly centralised and rigid data architectures that serve as a bottleneck for coordination. This artefact aims to connect the point of data generation with its utilisation, streamlining the process. This artefact is designed to enhance agility in response to growth and successfully adapt to organisational changes. To achieve that, the first step is the introduction of data into domains. 
+
+TerraMycelium utilises earlier solutions to improve and overcome their limitations. This artefact tries to move away from highly centralised and rigid data architectures that serve as a bottleneck for coordination. This artefact aims to connect the point of data generation with its utilisation, streamlining the process. This artefact is designed to enhance agility in response to growth and successfully adapt to organisational changes. To achieve that, the first step is the introduction of data into domains. 
 
 \subsection{Localized autonomy through domain-driven design}
 
