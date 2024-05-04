@@ -405,9 +405,7 @@ Scalability and elasticity are significant aspects as well. The architecture all
 
 The architecture also demonstrates strong fault tolerance. Interservice communication can affect fault tolerance; however, a redundant and scalable design of Terramycelium, combined with service discovery techniques, helps alleviate this problem. Microservices' standalone and single-purpose design typically results in a high level of fault tolerance \cite{MStodaytomorrow}.
 
-On the other hand, the architecture might be rated lower in terms of cost and simplicity. The decentralised structure of Terramycelium and the possibility of higher communication overhead can create challenges in cost management and optimisation. Implementing strategies like intelligent data caching and replication can help overcome performance issues related to network calls, but managing costs is still a continuous concern.
-
-The Terramycelium design emphasises the advantages of microservices, focusing on maintainability, scalability, fault tolerance, elasticity, and deployability. The text recognises the difficulties that come with distributed architectures and provides methods to reduce their impact. Architects need to comprehend the principles of architecture in order to skillfully traverse and capitalise on its advantages. An overview of architectural characteristics is portrayed in Table~\ref{tab:architecture-characteristics}
+On the other hand, the architecture might be rated lower in terms of cost and simplicity. The decentralised structure of Terramycelium and the possibility of higher communication overhead can create challenges in cost management and optimisation. Implementing strategies like intelligent data caching and replication can help overcome performance issues related to network calls, but managing costs is still a continuous concern.  An overview of architectural characteristics is portrayed in Table~\ref{tab:architecture-characteristics}
 
 \begin{table}[t]
 
@@ -467,11 +465,11 @@ The Terramycelium design emphasises the advantages of microservices, focusing on
 
 \section{Artifact} \label{sec:artefact}
 
-After exploring the underpinning design theories, a solid theoretical foundation is established for creating and developing the artefact. Terramycelium is generated using Archimate and mostly showcases the RA within the technological layer. The architect has the responsibility to determine the flow and application that should be present in each node when showcasing these services in the technology layer. To ensure thoroughness, a basic business process is assumed, as every piece of software is created to fulfil a business requirement. Terramycelium should possess the flexibility needed to accommodate alternative business models, notwithstanding potential variations in the business layer across different settings.
+After exploring the underpinning design theories, a solid theoretical foundation is established for creating and developing the artefact. Terramycelium is generated using Archimate and mostly showcases the RA within the technological layer. The architect has the responsibility to determine the flow and application that should be present in each node when showcasing these services in the technology layer. Terramycelium should possess the flexibility needed to accommodate alternative business models, notwithstanding potential variations in the business layer across different settings.
 
 This BD RA does not depict the architecture of any particular BD system. It functions as a versatile tool for describing, discussing, and constructing system-specific designs based on standardised principles. Terramycelium enables in-depth and insightful talks about the needs, frameworks, and functions of BD systems. The system stays vendor-neutral, providing flexibility in choosing products or services, and avoids imposing strict solutions that restrict innovation. 
 
-To ensure thoroughness, we have assumed a basic BD business process, as all software is created to fulfil a specific business requirement. Terramycelium consists of 15 primary components and 5 variable components, as seen in Figure \ref{fig:Terramycelium}. The lowercase "a" in the top left corner of the diagram represents the auxiliary view, while the letter "m" represents the master view. When the same entity is utilised in various models, the auxiliary view is employed. This indicates that the entity already exists and is being reused. 
+Terramycelium consists of 15 primary components and 5 variable components, as seen in Figure \ref{fig:Terramycelium}. The lowercase "a" in the top left corner of the diagram represents the auxiliary view, while the letter "m" represents the master view. When the same entity is utilised in various models, the auxiliary view is employed. This indicates that the entity already exists and is being reused. 
 
 \begin{sidewaysfigure*}
 
@@ -521,11 +519,11 @@ These components are;
 
     
 
-    The batch processing controller allows for customisation and flexibility in generating batch events. It can carry out supplementary functions apart from computationally demanding activities, including data cleansing or incorporating personalised headers. Businesses can customise batch event production to meet their individual needs and expectations.
+    Furthermore, the batch processing controller allows for customisation and flexibility in generating batch events. It can carry out supplementary functions apart from computationally demanding activities, including data cleansing or incorporating personalised headers. Businesses can customise batch event production to meet their individual needs and expectations.
 
     
 
-    A specialised controller for batch processing recognises the distinct needs and attributes of batch events, offering tailored features and enhancements. This component fulfils the criteria.
+    A specialised controller for batch processing recognises the distinct needs and attributes of batch events, offering tailored features and enhancements. 
 
     \textit{Addresses requirements: Vel-1, Val-1, and Val-2.}
 
@@ -537,11 +535,11 @@ These components are;
 
     
 
-    Simplifying monitoring and discovery within the architecture, the controller simplifies tracking and analysing the performance, latency, and throughput of streaming events. It also enables focused monitoring of stream-specific metrics, providing valuable insights into the behaviour and efficiency of the streaming data pipeline.
+    Simplifying monitoring and discovery within the architecture, the controller tracks and analyses the performance, latency, and throughput of streaming events. It also enables focused monitoring of stream-specific metrics, providing valuable insights into the behaviour and efficiency of the streaming data pipeline.
 
     
 
-    In summary, the stream processing controller is an essential component in architectures involving streaming data due to its ability to handle high throughput, apply custom attributes, optimise computations, and simplify monitoring and discovery. 
+    The stream processing controller is an essential component in architectures involving streaming data due to its ability to handle high throughput, apply custom attributes, optimise computations, and simplify monitoring and discovery. 
 
     
 
@@ -549,7 +547,7 @@ These components are;
 
     
 
-    \item \textbf{Event Processing Interface:} Event brokers are designed to achieve \emph{inversion of control}. As the company evolves and requirements emerge, the number of nodes or services increases, new regions of operations may be added, and new events might need to be dispatched. As each service has to communicate with the rest through the event backbone, each service will be required to implement its event-handling module. 
+    \item \textbf{Event Processing Interface:} Event processing interfaces are designed to achieve \emph{inversion of control}. As the company evolves and requirements emerge, the number of nodes or services increases, new regions of operations may be added, and new events might need to be dispatched. As each service has to communicate with the rest through the event backbone, each service will be required to implement its event-handling module. 
 
     
 
@@ -557,7 +555,7 @@ These components are;
 
     
 
-    Event brokers, being environmentally agnostic, can be deployed on any on-premise, private, or public infrastructure. This frees up engineers from having to think about the event interface they have to implement and how it should behave. Event brokers can also account for more dynamism by learning which events should be routed to which consumer applications. Moreover, event brokers do also implement circuit breaking, which means if the service they have to break to is not available and does not respond for a certain amount of time, the broker establishes the unavailability of the service to the rest of the services, so no further requests come through. This is essential to preventing a ripple effect over the whole system if one system fails. 
+    Event processing interface, being environmentally agnostic, can be deployed on any on-premise, private, or public infrastructure. This frees up engineers from having to think about the event interface they have to implement and how it should behave. Event interfaces can also account for more dynamism by learning which events should be routed to which consumer applications. Moreover, event brokers do also implement circuit breaking, which means if the service they have to break to is not available and does not respond for a certain amount of time, the broker establishes the unavailability of the service to the rest of the services, so no further requests come through. This is essential to preventing a ripple effect over the whole system if one system fails. 
 
     
 
@@ -567,7 +565,7 @@ These components are;
 
     
 
-    This guarantees an uninterrupted exchange of data between services, ensuring that all systems are in the appropriate condition. The event backbone can combine many event streams, store events in a cache, archive events, and perform other operations, as long as it does not become overly intelligent or function as an Enterprise Service Bus (ESB) in Service-Oriented Architecture (SOA) systems. An architect should see the event backbone as a collection of interconnected nodes that address different subjects of interest. The event backbone can be monitored over time to analyse access patterns and adjusted to optimise communication efficiency.
+    This guarantees an uninterrupted exchange of data between services, ensuring that all systems are in the appropriate condition. The event backbone can combine many event streams, store events in a cache, archive events, and perform other operations, as long as it does not become overly intelligent or function as an Enterprise Service Bus (ESB) in Service-Oriented Architecture (SOA) systems. An architect should see the event backbone as a collection of interconnected nodes that address different subjects of interest. The event backbone can be monitored over time to analyse access patterns and adjust to optimise communication efficiency.
 
     \textit{Addresses requirements: Vel-1, Vel-2, Vel-3, Vel-4, Vel-5, Val-1, Val-2, Ver-1, Ver-2, and Ver-3.} 
 
@@ -601,11 +599,9 @@ These components are;
 
     The service mesh architecture enables a cohesive perspective of the system, promoting smooth cooperation between analytics and operations teams. The system supports scalability, adapts to changes in business environments, validates data, maintains quality and integrity, and meets security and privacy standards by enforcing policies, ensuring secure communication, and implementing data governance processes.
 
-    The service mesh's effectiveness lies in its ability to address key architectural concerns. It promotes scalability, allowing the domain to handle large volumes of data and increasing computational resources as needed (Vol-1). It facilitates rapid development and deployment of analytical capabilities (Vel-3, Vel-4, Vel-5). The service mesh architecture accommodates variability in business contexts, supporting the diverse needs and requirements of different product domains (Var-1, Var-2, Var-3). It ensures data validation, quality, and integrity by leveraging advanced analytics and processing techniques (Val-1, Val-2, Val-3, Val-4). Security and privacy requirements are fulfilled through policy enforcement, secure communication, and data governance mechanisms (Sap-1, SaP-2). 
-
+    The service mesh's effectiveness lies in its ability to address key architectural concerns. It promotes scalability, allowing the domain to handle large volumes of data and increasing computational resources as needed (Vol-1). It facilitates rapid development and deployment of analytical capabilities (Vel-3, Vel-4, Vel-5). The service mesh architecture accommodates variability in business contexts, supporting the diverse needs and requirements of different product domains (Var-1, Var-2, Var-3). 
     
-
-    Finally, the service mesh architecture allows for the verification of system behaviour, enabling efficient testing, monitoring, and verification of the domain's analytical outputs (Ver-1, Ver-2, Ver-3).
+    It ensures data validation, quality, and integrity by leveraging advanced analytics and processing techniques (Val-1, Val-2, Val-3, Val-4). Security and privacy requirements are fulfilled through policy enforcement, secure communication, and data governance mechanisms (Sap-1, SaP-2). Finally, the service mesh architecture allows for the verification of system behaviour, enabling efficient testing, monitoring, and verification of the domain's analytical outputs (Ver-1, Ver-2, Ver-3).
 
     \textit{Addresses requirements: Vol-1, Vel-3, Vel-4, Vel-5, Var-1, Var-2, Var-3, Val-1, Val-2, Val-3, Val-4, Sap-1, SaP-2} 
 
@@ -725,7 +721,9 @@ The initial phase of evaluating Terramycelium is a single-case mechanism experim
 
 Prototyping is the creation of a working model that physically represents the structure, demonstrating the design principles and ideas. This is frequently referred to as the \emph{concrete architecture}. This technique enables researchers to validate and develop the design to assess its practicality, performance, and alignment with research objectives.
 
-Implementing the essential components and functionalities stated in the RA, Terramycelium, is part of prototyping the architecture. The selected technologies, supported by academic justification and in line with the research goals, serve as the basis for developing the prototype. The architecture's ability to manage large-scale data processing and meet various needs can be evaluated by systematically implementing its architectural components. Figure~\ref{TerramyceliumPrototype} shows a concrete structure created with Terramycelium.
+Implementing the essential components and functionalities stated in the RA, Terramycelium, is part of prototyping the architecture. The choice of technologies was primarily driven by their open-source availability, ensuring accessibility and transparency in the prototyping process.
+
+By leveraging open-source solutions, the prototype benefits from the collective knowledge and continuous improvements contributed by the developer community. This approach aligns with the research objectives of creating a flexible and adaptable architecture that can be easily replicated and extended by others in the field. Figure~\ref{TerramyceliumPrototype} shows a concrete structure created with Terramycelium.
 
 \begin{figure*}[ht]
 
@@ -2390,15 +2388,14 @@ The initial evaluation, conducted through prototyping and case mechanism experim
 
 % Expert feedback provided valuable insights into the strengths and weaknesses of Terramycelium. The architecture's emphasis on domain-driven decentralization and event-driven services aligns with contemporary engineering practices and offers potential for integration with existing technologies (i1). However, concerns were raised regarding the practical challenges associated with implementing such a distributed system, particularly in terms of data consistency, transaction management, and operational complexity (i2, i3).
 
-The domain-driven and distributed nature of Terramycelium elicited diverse viewpoints regarding its compatibility with existing industry practices and anticipated future developments. While experts acknowledged the promising and advanced approaches (i1, i2), they also highlighted potential challenges related to team configurations, organizational scale, and industry readiness (i2). The architecture's complexity might pose adoption hurdles for some organizations, even larger ones (i3).
+The domain-driven and distributed nature of Terramycelium elicited diverse viewpoints regarding its compatibility with existing industry practices and anticipated future developments. While the promises an effective approach, it also highlights potential challenges related to team configurations, organizational scale, and industry readiness. The architecture's complexity might pose adoption hurdles for some organizations, even larger ones.
 
-Experts commended Terramycelium for its unique characteristics, particularly the integration of domain-driven design and data engineering (i1). This holistic approach, along with the architecture's adaptability and comprehensive ecosystem, were highlighted as potential strengths (i2, i3). The use of immutable logs and the ability to self-provision components were also recognized as valuable features (i3). Additionally, the modular architecture with clear boundaries between components was praised for its clarity and potential benefits (i2).
 
 The broader implications of this study, touching upon organizational and operational aspects of BD systems, highlight a shift towards more agile and responsive data management strategies. This envisioned transition aligns with the demand for data-driven organizational processes. Nonetheless, the transition to such decentralized architectures raises significant considerations regarding data governance, security, and privacy, areas that demand detailed scrutiny.
 
 Future research directions proposed for integrating Terramycelium with emerging technologies and validating its effectiveness across different sectors are well-founded. The incorporation of artificial intelligence and machine learning could indeed amplify the architecture's capabilities. However, as suggested earlier, the tangible impact of such integrations on the architecture's performance, usability, and cost-effectiveness needs clear articulation, supported by empirical evidence.
 
-Terramycelium presents a promising vision for managing complex BD systems. Its focus on domain-driven design, adaptability, and integration with modern engineering practices offers significant advantages. However, real-world applicability, scalability, and the practicalities of implementation require further investigation. Addressing the potential challenges identified through expert feedback and further research are crucial steps towards realizing the full potential of this innovative architecture.
+Terramycelium presents a promising vision for managing complex BD systems. Its focus on domain-driven design, adaptability, and integration with modern engineering practices offers advantages. However, real-world applicability, scalability, and the practicalities of implementation require further investigation. Addressing the potential challenges identified through expert feedback and further research are crucial steps towards realizing the full potential of this architecture.
 
 \section{Conclusion} \label{sec:conclusion}
 
