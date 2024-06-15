@@ -44,7 +44,7 @@
 
 
 \begin{abstract}
-    Big Data is a nascent term that emerged to describe a large amount of data that comes in different forms from various channels. In the modern world, users are the ceaseless generators of structured, semi-structured, and unstructured data that, if gleaned and crunched precisely, will reveal game-changing patterns. While opportunities exist with big data, the unprecedented amount of data has brought traditional approaches to a bottleneck, and the growth of data is outpacing technological and scientific advances in data analytics. It is estimated that approximately 75\% of the big data projects have failed within the last decade, according to multiple sources. Among the challenges, system development and data architecture are prominent. This paper aims to address these challenges by introducing a novel big data reference architecture. This reference architecture is developed by absorbing the principles of complex adaptive systems, domain-driven design, distributed systems, and event-driven systems. The reference architecture is developed following the guidelines for creating empirically grounded reference architectures and is evaluated using two distinct methods: a case-mechanism experiment and expert opinion. The results of the case-mechanism experiment demonstrate the artefact's capability to meet the requirements of big data systems while being highly maintainable and scalable.
+    Big Data is a nascent term that emerged to describe a large amount of data that comes in different forms from various channels. In the modern world, users are the ceaseless generators of structured, semi-structured, and unstructured data that, if gleaned and crunched precisely, will reveal game-changing patterns. While opportunities exist with big data, the unprecedented amount of data has brought traditional approaches to a bottleneck, and the growth of data is outpacing technological and scientific advances in data analytics. It is estimated that approximately 75\% of the big data projects have failed within the last decade, according to multiple sources. Among the challenges, system development and data architecture are prominent. This paper aims to address these challenges by introducing a novel big data reference architecture. This reference architecture is developed by absorbing the principles of complex adaptive systems, domain-driven design, distributed systems, and event-driven systems. The reference architecture is developed following the guidelines for creating empirically grounded reference architectures and is evaluated using a case-mechanism experiment. The results of the case-mechanism experiment demonstrate the artefact's capability to meet the requirements of big data systems while being highly maintainable and scalable.
 \end{abstract}
 
 \begin{keyword}
@@ -707,7 +707,7 @@ These components are;
 
 The variable components in Terramycelium can be altered, adapted, or excluded according to the architect's discretion and the specific characteristics of the situation. This RA aims to enhance data architects' decision-making process by introducing established patterns and best practices from several perspectives, rather than restricting their innovation. Alternative choices for each variable module are not detailed due to the dynamic nature of the industry, and architects strive to create systems that tackle new issue areas. 
 
-\section{Evaluation 1: Case Mechanism Experiment}
+\section{Evaluation: Case Mechanism Experiment}
 
 
 
@@ -1784,21 +1784,21 @@ The comprehensive evaluation of the Terramycelium system across several scenario
 
 This section discusses potential threats to the validity of our study on the development and evaluation of Terramycelium, taking into account the identified challenges and limitations.
 
-\subsection{Infrastructure and Technical Challenges}
+\subsubsection{Infrastructure and Technical Challenges}
 
 The study encountered infrastructure challenges, including issues with Kubernetes resources, difficulties with Kafka storage, and problems related to DNS configuration for container communication. These issues highlight the potential impact of technical constraints on the prototype's performance and the generalizability of our findings.
 
-\subsection{Integration and Data Management Difficulties}
+\subsubsection{Integration and Data Management Difficulties}
 
 Integration challenges with third-party services like Keycloak and the management of large datasets underscore the complexities of building BD systems. These difficulties reflect on the RA's adaptability and its applicability across different domains and data scales.
 
-\subsection{External Validity}
+\subsubsection{External Validity}
 
 The experimental design, focusing on a prototype and selected scenarios for RA evaluation, may not cover the breadth of potential real-world applications. This limitation could affect the generalizability of our findings to other contexts or systems with different requirements.
 
 Addressing these threats to validity involves further research, particularly exploring alternative technologies, expanding the experimental design to cover a wider range of scenarios, and conducting comprehensive performance and scalability testing.
 
-\subsection{Construct Validity}
+\subsubsection{Construct Validity}
 
 Construct validity is a cornerstone of our research methodology, particularly in ensuring that Terramycelium accurately reflects and addresses the multifaceted nature of BD systems. To this end, we have undertaken several critical steps:
 
